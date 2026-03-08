@@ -1,0 +1,530 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>CSV → JSON Converter | Medical Vital Signs</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet" />
+  <style>
+    :root {
+      --bg:        #0d1117;
+      --surface:   #161b22;
+      --surface2:  #21262d;
+      --border:    #30363d;
+      --primary:   #2ea44f;
+      --primary-h: #3fb950;
+      --accent:    #58a6ff;
+      --warn:      #f0883e;
+      --danger:    #f85149;
+      --text:      #e6edf3;
+      --text-muted:#8b949e;
+      --radius:    12px;
+    }
+
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    body {
+      font-family: 'Inter', sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+    }
+
+    /* ── Header ── */
+    header {
+      background: var(--surface);
+      border-bottom: 1px solid var(--border);
+      padding: 16px 32px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      position: sticky;
+      top: 0;
+      z-index: 100;
+      backdrop-filter: blur(12px);
+    }
+    .logo {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      font-weight: 700;
+      font-size: 1.1rem;
+    }
+    .logo svg { color: var(--primary); }
+    .badge-ip {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      background: var(--surface2);
+      border: 1px solid var(--border);
+      border-radius: 20px;
+      padding: 6px 14px;
+      font-size: 0.8rem;
+      font-family: 'JetBrains Mono', monospace;
+      color: var(--accent);
+    }
+    .dot {
+      width: 8px; height: 8px;
+      background: var(--primary);
+      border-radius: 50%;
+      animation: pulse 2s infinite;
+    }
+    @keyframes pulse {
+      0%, 100% { opacity: 1; transform: scale(1); }
+      50%       { opacity: .5; transform: scale(1.3); }
+    }
+
+    /* ── Main ── */
+    main {
+      flex: 1;
+      padding: 40px 32px;
+      max-width: 1100px;
+      width: 100%;
+      margin: 0 auto;
+    }
+
+    h1 {
+      font-size: 2rem;
+      font-weight: 700;
+      background: linear-gradient(135deg, var(--text) 0%, var(--accent) 100%);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      background-clip: text;
+      margin-bottom: 8px;
+    }
+    .subtitle {
+      color: var(--text-muted);
+      font-size: .95rem;
+      margin-bottom: 40px;
+    }
+
+    /* ── Drop Zone ── */
+    .drop-zone {
+      border: 2px dashed var(--border);
+      border-radius: var(--radius);
+      padding: 60px 40px;
+      text-align: center;
+      cursor: pointer;
+      transition: all .3s ease;
+      background: var(--surface);
+      position: relative;
+      overflow: hidden;
+    }
+    .drop-zone::before {
+      content: '';
+      position: absolute;
+      inset: 0;
+      background: radial-gradient(ellipse at center, rgba(46,164,79,.06) 0%, transparent 70%);
+      opacity: 0;
+      transition: opacity .3s;
+    }
+    .drop-zone:hover, .drop-zone.drag-over {
+      border-color: var(--primary);
+      background: #161b22;
+    }
+    .drop-zone:hover::before, .drop-zone.drag-over::before { opacity: 1; }
+    .drop-zone.drag-over { transform: scale(1.01); }
+
+    .drop-icon {
+      font-size: 3.5rem;
+      margin-bottom: 16px;
+      display: block;
+    }
+    .drop-zone h2 {
+      font-size: 1.2rem;
+      font-weight: 600;
+      margin-bottom: 8px;
+    }
+    .drop-zone p { color: var(--text-muted); font-size: .9rem; }
+
+    #file-input { display: none; }
+
+    .btn {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      padding: 10px 22px;
+      border-radius: 8px;
+      font-size: .9rem;
+      font-weight: 600;
+      cursor: pointer;
+      border: none;
+      transition: all .2s ease;
+      text-decoration: none;
+    }
+    .btn-primary {
+      background: var(--primary);
+      color: #fff;
+    }
+    .btn-primary:hover { background: var(--primary-h); transform: translateY(-1px); }
+
+    .btn-outline {
+      background: transparent;
+      color: var(--text);
+      border: 1px solid var(--border);
+    }
+    .btn-outline:hover { border-color: var(--accent); color: var(--accent); }
+
+    .btn-sm { padding: 7px 16px; font-size: .82rem; }
+    .btn:disabled { opacity: .5; cursor: not-allowed; transform: none !important; }
+
+    /* ── Progress ── */
+    #progress-section { display: none; margin-top: 24px; }
+    .progress-bar-wrap {
+      background: var(--surface2);
+      border-radius: 99px;
+      height: 6px;
+      overflow: hidden;
+    }
+    .progress-bar {
+      height: 100%;
+      background: linear-gradient(90deg, var(--primary), var(--accent));
+      border-radius: 99px;
+      transition: width .4s ease;
+      width: 0%;
+    }
+    .progress-label {
+      display: flex;
+      justify-content: space-between;
+      font-size: .82rem;
+      color: var(--text-muted);
+      margin-bottom: 8px;
+    }
+
+    /* ── Result Panel ── */
+    #result-section { display: none; margin-top: 32px; }
+
+    .result-header {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      margin-bottom: 16px;
+      flex-wrap: wrap;
+      gap: 12px;
+    }
+    .result-title {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      font-size: 1rem;
+      font-weight: 600;
+    }
+    .chip {
+      padding: 3px 10px;
+      border-radius: 99px;
+      font-size: .75rem;
+      font-weight: 600;
+    }
+    .chip-green { background: rgba(46,164,79,.2); color: var(--primary-h); border: 1px solid rgba(46,164,79,.3); }
+    .chip-blue  { background: rgba(88,166,255,.15); color: var(--accent); border: 1px solid rgba(88,166,255,.25); }
+
+    .stats-row {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+      gap: 16px;
+      margin-bottom: 20px;
+    }
+    .stat-card {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: 10px;
+      padding: 16px 20px;
+    }
+    .stat-card .label { font-size: .78rem; color: var(--text-muted); margin-bottom: 4px; }
+    .stat-card .value { font-size: 1.4rem; font-weight: 700; color: var(--accent); }
+
+    .json-viewer {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      overflow: hidden;
+    }
+    .json-toolbar {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 10px 16px;
+      border-bottom: 1px solid var(--border);
+      background: var(--surface2);
+    }
+    .json-toolbar span { font-size: .82rem; color: var(--text-muted); font-family: 'JetBrains Mono', monospace; }
+    pre#json-output {
+      font-family: 'JetBrains Mono', monospace;
+      font-size: .8rem;
+      padding: 20px;
+      overflow: auto;
+      max-height: 420px;
+      line-height: 1.6;
+      color: var(--text);
+      white-space: pre-wrap;
+      word-break: break-word;
+    }
+
+    /* JSON syntax highlight */
+    .jk { color: #79c0ff; }  /* key */
+    .js { color: #a5d6ff; }  /* string */
+    .jn { color: #f08d49; }  /* number */
+    .jb { color: #d2a8ff; }  /* bool/null */
+
+    /* ── Error Toast ── */
+    #toast {
+      position: fixed;
+      bottom: 28px;
+      right: 28px;
+      background: var(--danger);
+      color: #fff;
+      padding: 14px 20px;
+      border-radius: 10px;
+      font-size: .88rem;
+      font-weight: 500;
+      max-width: 380px;
+      box-shadow: 0 8px 32px rgba(0,0,0,.4);
+      display: none;
+      z-index: 999;
+      animation: slideIn .3s ease;
+    }
+    @keyframes slideIn {
+      from { transform: translateX(30px); opacity: 0; }
+      to   { transform: translateX(0);    opacity: 1; }
+    }
+
+    /* ── Footer ── */
+    footer {
+      text-align: center;
+      padding: 24px;
+      color: var(--text-muted);
+      font-size: .8rem;
+      border-top: 1px solid var(--border);
+    }
+
+    /* ── Responsive ── */
+    @media (max-width: 600px) {
+      main { padding: 24px 16px; }
+      header { padding: 14px 16px; }
+      h1 { font-size: 1.5rem; }
+      .drop-zone { padding: 40px 20px; }
+    }
+  </style>
+</head>
+<body>
+
+<!-- ── Header ── -->
+<header>
+  <div class="logo">
+    <svg width="22" height="22" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+      <path d="M9 17v-2m3 2v-4m3 4v-6M5 20h14a2 2 0 002-2V6a2 2 0 00-2-2h-3.5l-1-2h-5l-1 2H5a2 2 0 00-2 2v12a2 2 0 002 2z"/>
+    </svg>
+    CSV → JSON Converter
+  </div>
+  <div class="badge-ip">
+    <div class="dot"></div>
+    Server: <span id="server-addr">loading…</span>
+  </div>
+</header>
+
+<!-- ── Main ── -->
+<main>
+  <h1>Medical Vital Signs CSV Converter</h1>
+  <p class="subtitle">Upload file CSV dari monitor pasien dan dapatkan output JSON terstruktur secara instan.</p>
+
+  <!-- Drop Zone -->
+  <div class="drop-zone" id="drop-zone">
+    <span class="drop-icon">📂</span>
+    <h2>Drag & Drop file CSV di sini</h2>
+    <p>atau</p>
+    <br/>
+    <button class="btn btn-primary" onclick="document.getElementById('file-input').click()">
+      <svg width="16" height="16" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2.5">
+        <path d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1M12 12V4m0 0L8 8m4-4l4 4"/>
+      </svg>
+      Pilih File CSV
+    </button>
+    <input type="file" id="file-input" accept=".csv" />
+    <p style="margin-top:16px;font-size:.8rem;color:var(--text-muted);">Format: file CSV dengan header baris 1, unit baris 2</p>
+  </div>
+
+  <!-- Progress -->
+  <div id="progress-section">
+    <div class="progress-label">
+      <span id="progress-text">Mengkonversi…</span>
+      <span id="progress-pct">0%</span>
+    </div>
+    <div class="progress-bar-wrap"><div class="progress-bar" id="prog-bar"></div></div>
+  </div>
+
+  <!-- Result -->
+  <div id="result-section">
+    <div class="result-header">
+      <div class="result-title">
+        ✅ Konversi Berhasil
+        <span class="chip chip-green" id="rec-badge">0 record</span>
+        <span class="chip chip-blue" id="file-badge">output.json</span>
+      </div>
+      <div style="display:flex;gap:10px;">
+        <button class="btn btn-outline btn-sm" onclick="copyJSON()">📋 Salin JSON</button>
+        <a class="btn btn-primary btn-sm" id="dl-link" href="#" download>⬇ Download JSON</a>
+      </div>
+    </div>
+
+    <!-- Stats -->
+    <div class="stats-row">
+      <div class="stat-card"><div class="label">Total Record</div><div class="value" id="stat-records">—</div></div>
+      <div class="stat-card"><div class="label">Vital Sign Fields</div><div class="value" id="stat-fields">—</div></div>
+      <div class="stat-card"><div class="label">File Input</div><div class="value" style="font-size:1rem" id="stat-file">—</div></div>
+    </div>
+
+    <!-- JSON Viewer -->
+    <div class="json-viewer">
+      <div class="json-toolbar">
+        <span>output.json</span>
+        <button class="btn btn-outline btn-sm" onclick="toggleCollapse()">🔁 Toggle View</button>
+      </div>
+      <pre id="json-output"></pre>
+    </div>
+  </div>
+</main>
+
+<footer>CSV → JSON Converter · Medical Vital Signs · Running on local network</footer>
+<div id="toast"></div>
+
+<script>
+  let lastFilename = '';
+  let fullJSON = null;
+  let collapsed = false;
+
+  // ── Fetch server IP ──────────────────────────────────────────
+  async function fetchInfo() {
+    try {
+      const r = await fetch('/api/info');
+      const d = await r.json();
+      document.getElementById('server-addr').textContent = `${d.ip}:${d.port}`;
+    } catch {
+      document.getElementById('server-addr').textContent = 'localhost:5000';
+    }
+  }
+  fetchInfo();
+
+  // ── Drag & Drop ──────────────────────────────────────────────
+  const zone = document.getElementById('drop-zone');
+
+  zone.addEventListener('dragover', e => { e.preventDefault(); zone.classList.add('drag-over'); });
+  zone.addEventListener('dragleave', () => zone.classList.remove('drag-over'));
+  zone.addEventListener('drop', e => {
+    e.preventDefault();
+    zone.classList.remove('drag-over');
+    const file = e.dataTransfer.files[0];
+    if (file) handleFile(file);
+  });
+  zone.addEventListener('click', (e) => {
+    if (e.target.tagName !== 'BUTTON') document.getElementById('file-input').click();
+  });
+  document.getElementById('file-input').addEventListener('change', e => {
+    if (e.target.files[0]) handleFile(e.target.files[0]);
+  });
+
+  // ── Upload & Convert ─────────────────────────────────────────
+  async function handleFile(file) {
+    if (!file.name.endsWith('.csv')) { showToast('❌ Hanya file .csv yang didukung.'); return; }
+
+    showProgress(true);
+    animateProg(0, 30, 400);
+
+    const fd = new FormData();
+    fd.append('file', file);
+
+    try {
+      animateProg(30, 70, 600);
+      const res = await fetch('/api/convert', { method: 'POST', body: fd });
+      const data = await res.json();
+      animateProg(70, 100, 400);
+
+      setTimeout(() => {
+        showProgress(false);
+        if (data.error) { showToast('❌ ' + data.error); return; }
+        showResult(data, file.name);
+      }, 500);
+    } catch (err) {
+      showProgress(false);
+      showToast('❌ Gagal terhubung ke server: ' + err.message);
+    }
+  }
+
+  // ── Show Result ──────────────────────────────────────────────
+  function showResult(data, inputName) {
+    fullJSON = data.data;
+    lastFilename = data.filename;
+
+    const records = data.records;
+    const firstRecord = Array.isArray(fullJSON) ? fullJSON[0] : fullJSON;
+    const fieldCount = firstRecord?.result?.data_vital_sign?.length ?? '—';
+
+    document.getElementById('stat-records').textContent = records;
+    document.getElementById('stat-fields').textContent  = fieldCount;
+    document.getElementById('stat-file').textContent    = inputName;
+    document.getElementById('rec-badge').textContent    = `${records} record`;
+    document.getElementById('file-badge').textContent   = lastFilename;
+    document.getElementById('dl-link').href = `/api/download/${lastFilename}`;
+    document.getElementById('dl-link').setAttribute('download', lastFilename);
+
+    document.getElementById('json-output').innerHTML = syntaxHighlight(JSON.stringify(fullJSON, null, 2));
+    document.getElementById('result-section').style.display = 'block';
+    document.getElementById('result-section').scrollIntoView({ behavior: 'smooth', block: 'start' });
+  }
+
+  // ── Progress Bar ─────────────────────────────────────────────
+  function showProgress(show) {
+    document.getElementById('progress-section').style.display = show ? 'block' : 'none';
+    if (show) { document.getElementById('prog-bar').style.width = '0%'; }
+  }
+
+  function animateProg(from, to, duration) {
+    const bar   = document.getElementById('prog-bar');
+    const pct   = document.getElementById('progress-pct');
+    const start = performance.now();
+    function step(now) {
+      const t = Math.min((now - start) / duration, 1);
+      const v = Math.round(from + (to - from) * t);
+      bar.style.width = v + '%';
+      pct.textContent = v + '%';
+      if (t < 1) requestAnimationFrame(step);
+    }
+    requestAnimationFrame(step);
+  }
+
+  // ── Helpers ──────────────────────────────────────────────────
+  function copyJSON() {
+    navigator.clipboard.writeText(JSON.stringify(fullJSON, null, 2))
+      .then(() => showToast('✅ JSON disalin ke clipboard!', '#2ea44f'))
+      .catch(() => showToast('❌ Gagal menyalin.'));
+  }
+
+  function toggleCollapse() {
+    const pre = document.getElementById('json-output');
+    collapsed = !collapsed;
+    pre.style.maxHeight = collapsed ? '160px' : '420px';
+  }
+
+  function showToast(msg, color = '#f85149') {
+    const t = document.getElementById('toast');
+    t.textContent = msg;
+    t.style.background = color;
+    t.style.display = 'block';
+    setTimeout(() => t.style.display = 'none', 4000);
+  }
+
+  function syntaxHighlight(json) {
+    return json
+      .replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;')
+      .replace(/("(\\u[a-zA-Z0-9]{4}|\\[^u]|[^\\"])*"(\s*:)?|\b(true|false|null)\b|-?\d+(?:\.\d*)?(?:[eE][+\-]?\d+)?)/g, match => {
+        let cls = 'jn';
+        if (/^"/.test(match)) cls = /:$/.test(match) ? 'jk' : 'js';
+        else if (/true|false|null/.test(match)) cls = 'jb';
+        return `<span class="${cls}">${match}</span>`;
+      });
+  }
+</script>
+</body>
+</html>

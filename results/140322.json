@@ -1,0 +1,3087 @@
+[
+  {
+    "patient": {
+      "pid": "ANON123456",
+      "vid": "",
+      "name": "ANON PATIENT",
+      "gender": "male"
+    },
+    "result": {
+      "data_vital_sign": [
+        {
+          "test_name": "hr",
+          "label": "Heart Rate (ECG)",
+          "value": "60",
+          "unit": "bpm",
+          "date_time": "2026-03-05 14:02:54",
+          "equipid": "ANONDEVICE001",
+          "ref_range": "60-100"
+        },
+        {
+          "test_name": "ecg_pvcs",
+          "label": "PVCs",
+          "value": "10",
+          "unit": "/min",
+          "date_time": "2026-03-05 14:02:54",
+          "equipid": "ANONDEVICE001"
+        },
+        {
+          "test_name": "ecg_pause",
+          "label": "ECG Pause Min",
+          "value": "3",
+          "unit": "/min",
+          "date_time": "2026-03-05 14:02:54",
+          "equipid": "ANONDEVICE001"
+        },
+        {
+          "test_name": "spo2_a",
+          "label": "Oxygen Saturation (A)",
+          "value": "98",
+          "unit": "%",
+          "date_time": "2026-03-05 14:02:54",
+          "equipid": "ANONDEVICE001",
+          "ref_range": "95-100"
+        },
+        {
+          "test_name": "spo2_b",
+          "label": "Oxygen Saturation (B)",
+          "value": "98",
+          "unit": "%",
+          "date_time": "2026-03-05 14:02:54",
+          "equipid": "ANONDEVICE001",
+          "ref_range": "95-100"
+        },
+        {
+          "test_name": "spo2_delta",
+          "label": "SpO2 Delta",
+          "value": "0",
+          "unit": "%",
+          "date_time": "2026-03-05 14:02:54",
+          "equipid": "ANONDEVICE001"
+        },
+        {
+          "test_name": "temp_t1",
+          "label": "Body Temperature T1",
+          "value": "36.0",
+          "unit": "°C",
+          "date_time": "2026-03-05 14:02:54",
+          "equipid": "ANONDEVICE002",
+          "ref_range": "36.0-37.5"
+        },
+        {
+          "test_name": "temp_t2",
+          "label": "Body Temperature T2",
+          "value": "36.7",
+          "unit": "°C",
+          "date_time": "2026-03-05 14:02:54",
+          "equipid": "ANONDEVICE002",
+          "ref_range": "36.0-37.5"
+        },
+        {
+          "test_name": "temp_td",
+          "label": "Temperature Difference",
+          "value": "0.7",
+          "unit": "°C",
+          "date_time": "2026-03-05 14:02:54",
+          "equipid": "ANONDEVICE002"
+        }
+      ]
+    }
+  },
+  {
+    "patient": {
+      "pid": "ANON123456",
+      "vid": "",
+      "name": "ANON PATIENT",
+      "gender": "male"
+    },
+    "result": {
+      "data_vital_sign": [
+        {
+          "test_name": "hr",
+          "label": "Heart Rate (ECG)",
+          "value": "60",
+          "unit": "bpm",
+          "date_time": "2026-03-05 14:02:55",
+          "equipid": "ANONDEVICE001",
+          "ref_range": "60-100"
+        },
+        {
+          "test_name": "ecg_pvcs",
+          "label": "PVCs",
+          "value": "10",
+          "unit": "/min",
+          "date_time": "2026-03-05 14:02:55",
+          "equipid": "ANONDEVICE001"
+        },
+        {
+          "test_name": "ecg_pause",
+          "label": "ECG Pause Min",
+          "value": "3",
+          "unit": "/min",
+          "date_time": "2026-03-05 14:02:55",
+          "equipid": "ANONDEVICE001"
+        },
+        {
+          "test_name": "spo2_a",
+          "label": "Oxygen Saturation (A)",
+          "value": "98",
+          "unit": "%",
+          "date_time": "2026-03-05 14:02:55",
+          "equipid": "ANONDEVICE001",
+          "ref_range": "95-100"
+        },
+        {
+          "test_name": "spo2_b",
+          "label": "Oxygen Saturation (B)",
+          "value": "98",
+          "unit": "%",
+          "date_time": "2026-03-05 14:02:55",
+          "equipid": "ANONDEVICE001",
+          "ref_range": "95-100"
+        },
+        {
+          "test_name": "spo2_delta",
+          "label": "SpO2 Delta",
+          "value": "0",
+          "unit": "%",
+          "date_time": "2026-03-05 14:02:55",
+          "equipid": "ANONDEVICE001"
+        },
+        {
+          "test_name": "pr",
+          "label": "Pulse Rate",
+          "value": "60",
+          "unit": "bpm",
+          "date_time": "2026-03-05 14:02:55",
+          "equipid": "ANONDEVICE001",
+          "ref_range": "60-100"
+        },
+        {
+          "test_name": "rr",
+          "label": "Respiratory Rate",
+          "value": "20",
+          "unit": "rpm",
+          "date_time": "2026-03-05 14:02:55",
+          "equipid": "ANONDEVICE001",
+          "ref_range": "12-20"
+        },
+        {
+          "test_name": "temp_t1",
+          "label": "Body Temperature T1",
+          "value": "36.0",
+          "unit": "°C",
+          "date_time": "2026-03-05 14:02:55",
+          "equipid": "ANONDEVICE002",
+          "ref_range": "36.0-37.5"
+        },
+        {
+          "test_name": "temp_t2",
+          "label": "Body Temperature T2",
+          "value": "36.7",
+          "unit": "°C",
+          "date_time": "2026-03-05 14:02:55",
+          "equipid": "ANONDEVICE002",
+          "ref_range": "36.0-37.5"
+        },
+        {
+          "test_name": "temp_td",
+          "label": "Temperature Difference",
+          "value": "0.7",
+          "unit": "°C",
+          "date_time": "2026-03-05 14:02:55",
+          "equipid": "ANONDEVICE002"
+        }
+      ]
+    }
+  },
+  {
+    "patient": {
+      "pid": "ANON123456",
+      "vid": "",
+      "name": "ANON PATIENT",
+      "gender": "male"
+    },
+    "result": {
+      "data_vital_sign": [
+        {
+          "test_name": "hr",
+          "label": "Heart Rate (ECG)",
+          "value": "60",
+          "unit": "bpm",
+          "date_time": "2026-03-05 14:02:56",
+          "equipid": "ANONDEVICE001",
+          "ref_range": "60-100"
+        },
+        {
+          "test_name": "ecg_pvcs",
+          "label": "PVCs",
+          "value": "10",
+          "unit": "/min",
+          "date_time": "2026-03-05 14:02:56",
+          "equipid": "ANONDEVICE001"
+        },
+        {
+          "test_name": "ecg_pause",
+          "label": "ECG Pause Min",
+          "value": "3",
+          "unit": "/min",
+          "date_time": "2026-03-05 14:02:56",
+          "equipid": "ANONDEVICE001"
+        },
+        {
+          "test_name": "spo2_a",
+          "label": "Oxygen Saturation (A)",
+          "value": "98",
+          "unit": "%",
+          "date_time": "2026-03-05 14:02:56",
+          "equipid": "ANONDEVICE001",
+          "ref_range": "95-100"
+        },
+        {
+          "test_name": "spo2_b",
+          "label": "Oxygen Saturation (B)",
+          "value": "98",
+          "unit": "%",
+          "date_time": "2026-03-05 14:02:56",
+          "equipid": "ANONDEVICE001",
+          "ref_range": "95-100"
+        },
+        {
+          "test_name": "spo2_delta",
+          "label": "SpO2 Delta",
+          "value": "0",
+          "unit": "%",
+          "date_time": "2026-03-05 14:02:56",
+          "equipid": "ANONDEVICE001"
+        },
+        {
+          "test_name": "pr",
+          "label": "Pulse Rate",
+          "value": "60",
+          "unit": "bpm",
+          "date_time": "2026-03-05 14:02:56",
+          "equipid": "ANONDEVICE001",
+          "ref_range": "60-100"
+        },
+        {
+          "test_name": "rr",
+          "label": "Respiratory Rate",
+          "value": "20",
+          "unit": "rpm",
+          "date_time": "2026-03-05 14:02:56",
+          "equipid": "ANONDEVICE001",
+          "ref_range": "12-20"
+        },
+        {
+          "test_name": "temp_t1",
+          "label": "Body Temperature T1",
+          "value": "36.0",
+          "unit": "°C",
+          "date_time": "2026-03-05 14:02:56",
+          "equipid": "ANONDEVICE002",
+          "ref_range": "36.0-37.5"
+        },
+        {
+          "test_name": "temp_t2",
+          "label": "Body Temperature T2",
+          "value": "36.7",
+          "unit": "°C",
+          "date_time": "2026-03-05 14:02:56",
+          "equipid": "ANONDEVICE002",
+          "ref_range": "36.0-37.5"
+        },
+        {
+          "test_name": "temp_td",
+          "label": "Temperature Difference",
+          "value": "0.7",
+          "unit": "°C",
+          "date_time": "2026-03-05 14:02:56",
+          "equipid": "ANONDEVICE002"
+        }
+      ]
+    }
+  },
+  {
+    "patient": {
+      "pid": "ANON123456",
+      "vid": "",
+      "name": "ANON PATIENT",
+      "gender": "male"
+    },
+    "result": {
+      "data_vital_sign": [
+        {
+          "test_name": "hr",
+          "label": "Heart Rate (ECG)",
+          "value": "60",
+          "unit": "bpm",
+          "date_time": "2026-03-05 14:02:57",
+          "equipid": "ANONDEVICE001",
+          "ref_range": "60-100"
+        },
+        {
+          "test_name": "ecg_pvcs",
+          "label": "PVCs",
+          "value": "10",
+          "unit": "/min",
+          "date_time": "2026-03-05 14:02:57",
+          "equipid": "ANONDEVICE001"
+        },
+        {
+          "test_name": "ecg_pause",
+          "label": "ECG Pause Min",
+          "value": "3",
+          "unit": "/min",
+          "date_time": "2026-03-05 14:02:57",
+          "equipid": "ANONDEVICE001"
+        },
+        {
+          "test_name": "spo2_a",
+          "label": "Oxygen Saturation (A)",
+          "value": "98",
+          "unit": "%",
+          "date_time": "2026-03-05 14:02:57",
+          "equipid": "ANONDEVICE001",
+          "ref_range": "95-100"
+        },
+        {
+          "test_name": "spo2_b",
+          "label": "Oxygen Saturation (B)",
+          "value": "98",
+          "unit": "%",
+          "date_time": "2026-03-05 14:02:57",
+          "equipid": "ANONDEVICE001",
+          "ref_range": "95-100"
+        },
+        {
+          "test_name": "spo2_delta",
+          "label": "SpO2 Delta",
+          "value": "0",
+          "unit": "%",
+          "date_time": "2026-03-05 14:02:57",
+          "equipid": "ANONDEVICE001"
+        },
+        {
+          "test_name": "pr",
+          "label": "Pulse Rate",
+          "value": "60",
+          "unit": "bpm",
+          "date_time": "2026-03-05 14:02:57",
+          "equipid": "ANONDEVICE001",
+          "ref_range": "60-100"
+        },
+        {
+          "test_name": "rr",
+          "label": "Respiratory Rate",
+          "value": "20",
+          "unit": "rpm",
+          "date_time": "2026-03-05 14:02:57",
+          "equipid": "ANONDEVICE001",
+          "ref_range": "12-20"
+        },
+        {
+          "test_name": "temp_t1",
+          "label": "Body Temperature T1",
+          "value": "36.0",
+          "unit": "°C",
+          "date_time": "2026-03-05 14:02:57",
+          "equipid": "ANONDEVICE002",
+          "ref_range": "36.0-37.5"
+        },
+        {
+          "test_name": "temp_t2",
+          "label": "Body Temperature T2",
+          "value": "36.7",
+          "unit": "°C",
+          "date_time": "2026-03-05 14:02:57",
+          "equipid": "ANONDEVICE002",
+          "ref_range": "36.0-37.5"
+        },
+        {
+          "test_name": "temp_td",
+          "label": "Temperature Difference",
+          "value": "0.7",
+          "unit": "°C",
+          "date_time": "2026-03-05 14:02:57",
+          "equipid": "ANONDEVICE002"
+        }
+      ]
+    }
+  },
+  {
+    "patient": {
+      "pid": "ANON123456",
+      "vid": "",
+      "name": "ANON PATIENT",
+      "gender": "male"
+    },
+    "result": {
+      "data_vital_sign": [
+        {
+          "test_name": "hr",
+          "label": "Heart Rate (ECG)",
+          "value": "60",
+          "unit": "bpm",
+          "date_time": "2026-03-05 14:02:58",
+          "equipid": "ANONDEVICE001",
+          "ref_range": "60-100"
+        },
+        {
+          "test_name": "ecg_pvcs",
+          "label": "PVCs",
+          "value": "10",
+          "unit": "/min",
+          "date_time": "2026-03-05 14:02:58",
+          "equipid": "ANONDEVICE001"
+        },
+        {
+          "test_name": "ecg_pause",
+          "label": "ECG Pause Min",
+          "value": "3",
+          "unit": "/min",
+          "date_time": "2026-03-05 14:02:58",
+          "equipid": "ANONDEVICE001"
+        },
+        {
+          "test_name": "spo2_a",
+          "label": "Oxygen Saturation (A)",
+          "value": "98",
+          "unit": "%",
+          "date_time": "2026-03-05 14:02:58",
+          "equipid": "ANONDEVICE001",
+          "ref_range": "95-100"
+        },
+        {
+          "test_name": "spo2_b",
+          "label": "Oxygen Saturation (B)",
+          "value": "98",
+          "unit": "%",
+          "date_time": "2026-03-05 14:02:58",
+          "equipid": "ANONDEVICE001",
+          "ref_range": "95-100"
+        },
+        {
+          "test_name": "spo2_delta",
+          "label": "SpO2 Delta",
+          "value": "0",
+          "unit": "%",
+          "date_time": "2026-03-05 14:02:58",
+          "equipid": "ANONDEVICE001"
+        },
+        {
+          "test_name": "pr",
+          "label": "Pulse Rate",
+          "value": "60",
+          "unit": "bpm",
+          "date_time": "2026-03-05 14:02:58",
+          "equipid": "ANONDEVICE001",
+          "ref_range": "60-100"
+        },
+        {
+          "test_name": "rr",
+          "label": "Respiratory Rate",
+          "value": "20",
+          "unit": "rpm",
+          "date_time": "2026-03-05 14:02:58",
+          "equipid": "ANONDEVICE001",
+          "ref_range": "12-20"
+        },
+        {
+          "test_name": "temp_t1",
+          "label": "Body Temperature T1",
+          "value": "36.0",
+          "unit": "°C",
+          "date_time": "2026-03-05 14:02:58",
+          "equipid": "ANONDEVICE002",
+          "ref_range": "36.0-37.5"
+        },
+        {
+          "test_name": "temp_t2",
+          "label": "Body Temperature T2",
+          "value": "36.7",
+          "unit": "°C",
+          "date_time": "2026-03-05 14:02:58",
+          "equipid": "ANONDEVICE002",
+          "ref_range": "36.0-37.5"
+        },
+        {
+          "test_name": "temp_td",
+          "label": "Temperature Difference",
+          "value": "0.7",
+          "unit": "°C",
+          "date_time": "2026-03-05 14:02:58",
+          "equipid": "ANONDEVICE002"
+        }
+      ]
+    }
+  },
+  {
+    "patient": {
+      "pid": "ANON123456",
+      "vid": "",
+      "name": "ANON PATIENT",
+      "gender": "male"
+    },
+    "result": {
+      "data_vital_sign": [
+        {
+          "test_name": "hr",
+          "label": "Heart Rate (ECG)",
+          "value": "60",
+          "unit": "bpm",
+          "date_time": "2026-03-05 14:02:59",
+          "equipid": "ANONDEVICE001",
+          "ref_range": "60-100"
+        },
+        {
+          "test_name": "ecg_pvcs",
+          "label": "PVCs",
+          "value": "10",
+          "unit": "/min",
+          "date_time": "2026-03-05 14:02:59",
+          "equipid": "ANONDEVICE001"
+        },
+        {
+          "test_name": "ecg_pause",
+          "label": "ECG Pause Min",
+          "value": "3",
+          "unit": "/min",
+          "date_time": "2026-03-05 14:02:59",
+          "equipid": "ANONDEVICE001"
+        },
+        {
+          "test_name": "spo2_a",
+          "label": "Oxygen Saturation (A)",
+          "value": "98",
+          "unit": "%",
+          "date_time": "2026-03-05 14:02:59",
+          "equipid": "ANONDEVICE001",
+          "ref_range": "95-100"
+        },
+        {
+          "test_name": "spo2_b",
+          "label": "Oxygen Saturation (B)",
+          "value": "98",
+          "unit": "%",
+          "date_time": "2026-03-05 14:02:59",
+          "equipid": "ANONDEVICE001",
+          "ref_range": "95-100"
+        },
+        {
+          "test_name": "spo2_delta",
+          "label": "SpO2 Delta",
+          "value": "0",
+          "unit": "%",
+          "date_time": "2026-03-05 14:02:59",
+          "equipid": "ANONDEVICE001"
+        },
+        {
+          "test_name": "pr",
+          "label": "Pulse Rate",
+          "value": "60",
+          "unit": "bpm",
+          "date_time": "2026-03-05 14:02:59",
+          "equipid": "ANONDEVICE001",
+          "ref_range": "60-100"
+        },
+        {
+          "test_name": "rr",
+          "label": "Respiratory Rate",
+          "value": "20",
+          "unit": "rpm",
+          "date_time": "2026-03-05 14:02:59",
+          "equipid": "ANONDEVICE001",
+          "ref_range": "12-20"
+        },
+        {
+          "test_name": "temp_t1",
+          "label": "Body Temperature T1",
+          "value": "36.0",
+          "unit": "°C",
+          "date_time": "2026-03-05 14:02:59",
+          "equipid": "ANONDEVICE002",
+          "ref_range": "36.0-37.5"
+        },
+        {
+          "test_name": "temp_t2",
+          "label": "Body Temperature T2",
+          "value": "36.7",
+          "unit": "°C",
+          "date_time": "2026-03-05 14:02:59",
+          "equipid": "ANONDEVICE002",
+          "ref_range": "36.0-37.5"
+        },
+        {
+          "test_name": "temp_td",
+          "label": "Temperature Difference",
+          "value": "0.7",
+          "unit": "°C",
+          "date_time": "2026-03-05 14:02:59",
+          "equipid": "ANONDEVICE002"
+        }
+      ]
+    }
+  },
+  {
+    "patient": {
+      "pid": "ANON123456",
+      "vid": "",
+      "name": "ANON PATIENT",
+      "gender": "male"
+    },
+    "result": {
+      "data_vital_sign": [
+        {
+          "test_name": "hr",
+          "label": "Heart Rate (ECG)",
+          "value": "60",
+          "unit": "bpm",
+          "date_time": "2026-03-05 14:03:00",
+          "equipid": "ANONDEVICE001",
+          "ref_range": "60-100"
+        },
+        {
+          "test_name": "ecg_pvcs",
+          "label": "PVCs",
+          "value": "10",
+          "unit": "/min",
+          "date_time": "2026-03-05 14:03:00",
+          "equipid": "ANONDEVICE001"
+        },
+        {
+          "test_name": "ecg_pause",
+          "label": "ECG Pause Min",
+          "value": "3",
+          "unit": "/min",
+          "date_time": "2026-03-05 14:03:00",
+          "equipid": "ANONDEVICE001"
+        },
+        {
+          "test_name": "spo2_a",
+          "label": "Oxygen Saturation (A)",
+          "value": "98",
+          "unit": "%",
+          "date_time": "2026-03-05 14:03:00",
+          "equipid": "ANONDEVICE001",
+          "ref_range": "95-100"
+        },
+        {
+          "test_name": "spo2_b",
+          "label": "Oxygen Saturation (B)",
+          "value": "98",
+          "unit": "%",
+          "date_time": "2026-03-05 14:03:00",
+          "equipid": "ANONDEVICE001",
+          "ref_range": "95-100"
+        },
+        {
+          "test_name": "spo2_delta",
+          "label": "SpO2 Delta",
+          "value": "0",
+          "unit": "%",
+          "date_time": "2026-03-05 14:03:00",
+          "equipid": "ANONDEVICE001"
+        },
+        {
+          "test_name": "pr",
+          "label": "Pulse Rate",
+          "value": "60",
+          "unit": "bpm",
+          "date_time": "2026-03-05 14:03:00",
+          "equipid": "ANONDEVICE001",
+          "ref_range": "60-100"
+        },
+        {
+          "test_name": "rr",
+          "label": "Respiratory Rate",
+          "value": "20",
+          "unit": "rpm",
+          "date_time": "2026-03-05 14:03:00",
+          "equipid": "ANONDEVICE001",
+          "ref_range": "12-20"
+        },
+        {
+          "test_name": "temp_t1",
+          "label": "Body Temperature T1",
+          "value": "36.0",
+          "unit": "°C",
+          "date_time": "2026-03-05 14:03:00",
+          "equipid": "ANONDEVICE002",
+          "ref_range": "36.0-37.5"
+        },
+        {
+          "test_name": "temp_t2",
+          "label": "Body Temperature T2",
+          "value": "36.7",
+          "unit": "°C",
+          "date_time": "2026-03-05 14:03:00",
+          "equipid": "ANONDEVICE002",
+          "ref_range": "36.0-37.5"
+        },
+        {
+          "test_name": "temp_td",
+          "label": "Temperature Difference",
+          "value": "0.7",
+          "unit": "°C",
+          "date_time": "2026-03-05 14:03:00",
+          "equipid": "ANONDEVICE002"
+        }
+      ]
+    }
+  },
+  {
+    "patient": {
+      "pid": "ANON123456",
+      "vid": "",
+      "name": "ANON PATIENT",
+      "gender": "male"
+    },
+    "result": {
+      "data_vital_sign": [
+        {
+          "test_name": "hr",
+          "label": "Heart Rate (ECG)",
+          "value": "60",
+          "unit": "bpm",
+          "date_time": "2026-03-05 14:03:01",
+          "equipid": "ANONDEVICE001",
+          "ref_range": "60-100"
+        },
+        {
+          "test_name": "ecg_pvcs",
+          "label": "PVCs",
+          "value": "10",
+          "unit": "/min",
+          "date_time": "2026-03-05 14:03:01",
+          "equipid": "ANONDEVICE001"
+        },
+        {
+          "test_name": "ecg_pause",
+          "label": "ECG Pause Min",
+          "value": "3",
+          "unit": "/min",
+          "date_time": "2026-03-05 14:03:01",
+          "equipid": "ANONDEVICE001"
+        },
+        {
+          "test_name": "spo2_a",
+          "label": "Oxygen Saturation (A)",
+          "value": "98",
+          "unit": "%",
+          "date_time": "2026-03-05 14:03:01",
+          "equipid": "ANONDEVICE001",
+          "ref_range": "95-100"
+        },
+        {
+          "test_name": "spo2_b",
+          "label": "Oxygen Saturation (B)",
+          "value": "98",
+          "unit": "%",
+          "date_time": "2026-03-05 14:03:01",
+          "equipid": "ANONDEVICE001",
+          "ref_range": "95-100"
+        },
+        {
+          "test_name": "spo2_delta",
+          "label": "SpO2 Delta",
+          "value": "0",
+          "unit": "%",
+          "date_time": "2026-03-05 14:03:01",
+          "equipid": "ANONDEVICE001"
+        },
+        {
+          "test_name": "pr",
+          "label": "Pulse Rate",
+          "value": "60",
+          "unit": "bpm",
+          "date_time": "2026-03-05 14:03:01",
+          "equipid": "ANONDEVICE001",
+          "ref_range": "60-100"
+        },
+        {
+          "test_name": "rr",
+          "label": "Respiratory Rate",
+          "value": "20",
+          "unit": "rpm",
+          "date_time": "2026-03-05 14:03:01",
+          "equipid": "ANONDEVICE001",
+          "ref_range": "12-20"
+        },
+        {
+          "test_name": "temp_t1",
+          "label": "Body Temperature T1",
+          "value": "36.0",
+          "unit": "°C",
+          "date_time": "2026-03-05 14:03:01",
+          "equipid": "ANONDEVICE002",
+          "ref_range": "36.0-37.5"
+        },
+        {
+          "test_name": "temp_t2",
+          "label": "Body Temperature T2",
+          "value": "36.7",
+          "unit": "°C",
+          "date_time": "2026-03-05 14:03:01",
+          "equipid": "ANONDEVICE002",
+          "ref_range": "36.0-37.5"
+        },
+        {
+          "test_name": "temp_td",
+          "label": "Temperature Difference",
+          "value": "0.7",
+          "unit": "°C",
+          "date_time": "2026-03-05 14:03:01",
+          "equipid": "ANONDEVICE002"
+        }
+      ]
+    }
+  },
+  {
+    "patient": {
+      "pid": "ANON123456",
+      "vid": "",
+      "name": "ANON PATIENT",
+      "gender": "male"
+    },
+    "result": {
+      "data_vital_sign": [
+        {
+          "test_name": "hr",
+          "label": "Heart Rate (ECG)",
+          "value": "60",
+          "unit": "bpm",
+          "date_time": "2026-03-05 14:03:02",
+          "equipid": "ANONDEVICE001",
+          "ref_range": "60-100"
+        },
+        {
+          "test_name": "ecg_pvcs",
+          "label": "PVCs",
+          "value": "10",
+          "unit": "/min",
+          "date_time": "2026-03-05 14:03:02",
+          "equipid": "ANONDEVICE001"
+        },
+        {
+          "test_name": "ecg_pause",
+          "label": "ECG Pause Min",
+          "value": "3",
+          "unit": "/min",
+          "date_time": "2026-03-05 14:03:02",
+          "equipid": "ANONDEVICE001"
+        },
+        {
+          "test_name": "spo2_a",
+          "label": "Oxygen Saturation (A)",
+          "value": "98",
+          "unit": "%",
+          "date_time": "2026-03-05 14:03:02",
+          "equipid": "ANONDEVICE001",
+          "ref_range": "95-100"
+        },
+        {
+          "test_name": "spo2_b",
+          "label": "Oxygen Saturation (B)",
+          "value": "98",
+          "unit": "%",
+          "date_time": "2026-03-05 14:03:02",
+          "equipid": "ANONDEVICE001",
+          "ref_range": "95-100"
+        },
+        {
+          "test_name": "spo2_delta",
+          "label": "SpO2 Delta",
+          "value": "0",
+          "unit": "%",
+          "date_time": "2026-03-05 14:03:02",
+          "equipid": "ANONDEVICE001"
+        },
+        {
+          "test_name": "pr",
+          "label": "Pulse Rate",
+          "value": "60",
+          "unit": "bpm",
+          "date_time": "2026-03-05 14:03:02",
+          "equipid": "ANONDEVICE001",
+          "ref_range": "60-100"
+        },
+        {
+          "test_name": "rr",
+          "label": "Respiratory Rate",
+          "value": "20",
+          "unit": "rpm",
+          "date_time": "2026-03-05 14:03:02",
+          "equipid": "ANONDEVICE001",
+          "ref_range": "12-20"
+        },
+        {
+          "test_name": "temp_t1",
+          "label": "Body Temperature T1",
+          "value": "36.0",
+          "unit": "°C",
+          "date_time": "2026-03-05 14:03:02",
+          "equipid": "ANONDEVICE002",
+          "ref_range": "36.0-37.5"
+        },
+        {
+          "test_name": "temp_t2",
+          "label": "Body Temperature T2",
+          "value": "36.7",
+          "unit": "°C",
+          "date_time": "2026-03-05 14:03:02",
+          "equipid": "ANONDEVICE002",
+          "ref_range": "36.0-37.5"
+        },
+        {
+          "test_name": "temp_td",
+          "label": "Temperature Difference",
+          "value": "0.7",
+          "unit": "°C",
+          "date_time": "2026-03-05 14:03:02",
+          "equipid": "ANONDEVICE002"
+        }
+      ]
+    }
+  },
+  {
+    "patient": {
+      "pid": "ANON123456",
+      "vid": "",
+      "name": "ANON PATIENT",
+      "gender": "male"
+    },
+    "result": {
+      "data_vital_sign": [
+        {
+          "test_name": "hr",
+          "label": "Heart Rate (ECG)",
+          "value": "60",
+          "unit": "bpm",
+          "date_time": "2026-03-05 14:03:03",
+          "equipid": "ANONDEVICE001",
+          "ref_range": "60-100"
+        },
+        {
+          "test_name": "ecg_pvcs",
+          "label": "PVCs",
+          "value": "10",
+          "unit": "/min",
+          "date_time": "2026-03-05 14:03:03",
+          "equipid": "ANONDEVICE001"
+        },
+        {
+          "test_name": "ecg_pause",
+          "label": "ECG Pause Min",
+          "value": "3",
+          "unit": "/min",
+          "date_time": "2026-03-05 14:03:03",
+          "equipid": "ANONDEVICE001"
+        },
+        {
+          "test_name": "spo2_a",
+          "label": "Oxygen Saturation (A)",
+          "value": "98",
+          "unit": "%",
+          "date_time": "2026-03-05 14:03:03",
+          "equipid": "ANONDEVICE001",
+          "ref_range": "95-100"
+        },
+        {
+          "test_name": "spo2_b",
+          "label": "Oxygen Saturation (B)",
+          "value": "98",
+          "unit": "%",
+          "date_time": "2026-03-05 14:03:03",
+          "equipid": "ANONDEVICE001",
+          "ref_range": "95-100"
+        },
+        {
+          "test_name": "spo2_delta",
+          "label": "SpO2 Delta",
+          "value": "0",
+          "unit": "%",
+          "date_time": "2026-03-05 14:03:03",
+          "equipid": "ANONDEVICE001"
+        },
+        {
+          "test_name": "pr",
+          "label": "Pulse Rate",
+          "value": "60",
+          "unit": "bpm",
+          "date_time": "2026-03-05 14:03:03",
+          "equipid": "ANONDEVICE001",
+          "ref_range": "60-100"
+        },
+        {
+          "test_name": "rr",
+          "label": "Respiratory Rate",
+          "value": "20",
+          "unit": "rpm",
+          "date_time": "2026-03-05 14:03:03",
+          "equipid": "ANONDEVICE001",
+          "ref_range": "12-20"
+        },
+        {
+          "test_name": "temp_t1",
+          "label": "Body Temperature T1",
+          "value": "36.0",
+          "unit": "°C",
+          "date_time": "2026-03-05 14:03:03",
+          "equipid": "ANONDEVICE002",
+          "ref_range": "36.0-37.5"
+        },
+        {
+          "test_name": "temp_t2",
+          "label": "Body Temperature T2",
+          "value": "36.7",
+          "unit": "°C",
+          "date_time": "2026-03-05 14:03:03",
+          "equipid": "ANONDEVICE002",
+          "ref_range": "36.0-37.5"
+        },
+        {
+          "test_name": "temp_td",
+          "label": "Temperature Difference",
+          "value": "0.7",
+          "unit": "°C",
+          "date_time": "2026-03-05 14:03:03",
+          "equipid": "ANONDEVICE002"
+        }
+      ]
+    }
+  },
+  {
+    "patient": {
+      "pid": "ANON123456",
+      "vid": "",
+      "name": "ANON PATIENT",
+      "gender": "male"
+    },
+    "result": {
+      "data_vital_sign": [
+        {
+          "test_name": "hr",
+          "label": "Heart Rate (ECG)",
+          "value": "60",
+          "unit": "bpm",
+          "date_time": "2026-03-05 14:03:04",
+          "equipid": "ANONDEVICE001",
+          "ref_range": "60-100"
+        },
+        {
+          "test_name": "ecg_pvcs",
+          "label": "PVCs",
+          "value": "10",
+          "unit": "/min",
+          "date_time": "2026-03-05 14:03:04",
+          "equipid": "ANONDEVICE001"
+        },
+        {
+          "test_name": "ecg_pause",
+          "label": "ECG Pause Min",
+          "value": "3",
+          "unit": "/min",
+          "date_time": "2026-03-05 14:03:04",
+          "equipid": "ANONDEVICE001"
+        },
+        {
+          "test_name": "spo2_a",
+          "label": "Oxygen Saturation (A)",
+          "value": "98",
+          "unit": "%",
+          "date_time": "2026-03-05 14:03:04",
+          "equipid": "ANONDEVICE001",
+          "ref_range": "95-100"
+        },
+        {
+          "test_name": "spo2_b",
+          "label": "Oxygen Saturation (B)",
+          "value": "98",
+          "unit": "%",
+          "date_time": "2026-03-05 14:03:04",
+          "equipid": "ANONDEVICE001",
+          "ref_range": "95-100"
+        },
+        {
+          "test_name": "spo2_delta",
+          "label": "SpO2 Delta",
+          "value": "0",
+          "unit": "%",
+          "date_time": "2026-03-05 14:03:04",
+          "equipid": "ANONDEVICE001"
+        },
+        {
+          "test_name": "pr",
+          "label": "Pulse Rate",
+          "value": "60",
+          "unit": "bpm",
+          "date_time": "2026-03-05 14:03:04",
+          "equipid": "ANONDEVICE001",
+          "ref_range": "60-100"
+        },
+        {
+          "test_name": "rr",
+          "label": "Respiratory Rate",
+          "value": "20",
+          "unit": "rpm",
+          "date_time": "2026-03-05 14:03:04",
+          "equipid": "ANONDEVICE001",
+          "ref_range": "12-20"
+        },
+        {
+          "test_name": "temp_t1",
+          "label": "Body Temperature T1",
+          "value": "36.0",
+          "unit": "°C",
+          "date_time": "2026-03-05 14:03:04",
+          "equipid": "ANONDEVICE002",
+          "ref_range": "36.0-37.5"
+        },
+        {
+          "test_name": "temp_t2",
+          "label": "Body Temperature T2",
+          "value": "36.7",
+          "unit": "°C",
+          "date_time": "2026-03-05 14:03:04",
+          "equipid": "ANONDEVICE002",
+          "ref_range": "36.0-37.5"
+        },
+        {
+          "test_name": "temp_td",
+          "label": "Temperature Difference",
+          "value": "0.7",
+          "unit": "°C",
+          "date_time": "2026-03-05 14:03:04",
+          "equipid": "ANONDEVICE002"
+        }
+      ]
+    }
+  },
+  {
+    "patient": {
+      "pid": "ANON123456",
+      "vid": "",
+      "name": "ANON PATIENT",
+      "gender": "male"
+    },
+    "result": {
+      "data_vital_sign": [
+        {
+          "test_name": "hr",
+          "label": "Heart Rate (ECG)",
+          "value": "60",
+          "unit": "bpm",
+          "date_time": "2026-03-05 14:03:05",
+          "equipid": "ANONDEVICE001",
+          "ref_range": "60-100"
+        },
+        {
+          "test_name": "ecg_pvcs",
+          "label": "PVCs",
+          "value": "10",
+          "unit": "/min",
+          "date_time": "2026-03-05 14:03:05",
+          "equipid": "ANONDEVICE001"
+        },
+        {
+          "test_name": "ecg_pause",
+          "label": "ECG Pause Min",
+          "value": "3",
+          "unit": "/min",
+          "date_time": "2026-03-05 14:03:05",
+          "equipid": "ANONDEVICE001"
+        },
+        {
+          "test_name": "spo2_a",
+          "label": "Oxygen Saturation (A)",
+          "value": "98",
+          "unit": "%",
+          "date_time": "2026-03-05 14:03:05",
+          "equipid": "ANONDEVICE001",
+          "ref_range": "95-100"
+        },
+        {
+          "test_name": "spo2_b",
+          "label": "Oxygen Saturation (B)",
+          "value": "98",
+          "unit": "%",
+          "date_time": "2026-03-05 14:03:05",
+          "equipid": "ANONDEVICE001",
+          "ref_range": "95-100"
+        },
+        {
+          "test_name": "spo2_delta",
+          "label": "SpO2 Delta",
+          "value": "0",
+          "unit": "%",
+          "date_time": "2026-03-05 14:03:05",
+          "equipid": "ANONDEVICE001"
+        },
+        {
+          "test_name": "pr",
+          "label": "Pulse Rate",
+          "value": "60",
+          "unit": "bpm",
+          "date_time": "2026-03-05 14:03:05",
+          "equipid": "ANONDEVICE001",
+          "ref_range": "60-100"
+        },
+        {
+          "test_name": "rr",
+          "label": "Respiratory Rate",
+          "value": "20",
+          "unit": "rpm",
+          "date_time": "2026-03-05 14:03:05",
+          "equipid": "ANONDEVICE001",
+          "ref_range": "12-20"
+        },
+        {
+          "test_name": "temp_t1",
+          "label": "Body Temperature T1",
+          "value": "36.0",
+          "unit": "°C",
+          "date_time": "2026-03-05 14:03:05",
+          "equipid": "ANONDEVICE002",
+          "ref_range": "36.0-37.5"
+        },
+        {
+          "test_name": "temp_t2",
+          "label": "Body Temperature T2",
+          "value": "36.7",
+          "unit": "°C",
+          "date_time": "2026-03-05 14:03:05",
+          "equipid": "ANONDEVICE002",
+          "ref_range": "36.0-37.5"
+        },
+        {
+          "test_name": "temp_td",
+          "label": "Temperature Difference",
+          "value": "0.7",
+          "unit": "°C",
+          "date_time": "2026-03-05 14:03:05",
+          "equipid": "ANONDEVICE002"
+        }
+      ]
+    }
+  },
+  {
+    "patient": {
+      "pid": "ANON123456",
+      "vid": "",
+      "name": "ANON PATIENT",
+      "gender": "male"
+    },
+    "result": {
+      "data_vital_sign": [
+        {
+          "test_name": "hr",
+          "label": "Heart Rate (ECG)",
+          "value": "60",
+          "unit": "bpm",
+          "date_time": "2026-03-05 14:03:06",
+          "equipid": "ANONDEVICE001",
+          "ref_range": "60-100"
+        },
+        {
+          "test_name": "ecg_pvcs",
+          "label": "PVCs",
+          "value": "10",
+          "unit": "/min",
+          "date_time": "2026-03-05 14:03:06",
+          "equipid": "ANONDEVICE001"
+        },
+        {
+          "test_name": "ecg_pause",
+          "label": "ECG Pause Min",
+          "value": "3",
+          "unit": "/min",
+          "date_time": "2026-03-05 14:03:06",
+          "equipid": "ANONDEVICE001"
+        },
+        {
+          "test_name": "spo2_a",
+          "label": "Oxygen Saturation (A)",
+          "value": "98",
+          "unit": "%",
+          "date_time": "2026-03-05 14:03:06",
+          "equipid": "ANONDEVICE001",
+          "ref_range": "95-100"
+        },
+        {
+          "test_name": "spo2_b",
+          "label": "Oxygen Saturation (B)",
+          "value": "98",
+          "unit": "%",
+          "date_time": "2026-03-05 14:03:06",
+          "equipid": "ANONDEVICE001",
+          "ref_range": "95-100"
+        },
+        {
+          "test_name": "spo2_delta",
+          "label": "SpO2 Delta",
+          "value": "0",
+          "unit": "%",
+          "date_time": "2026-03-05 14:03:06",
+          "equipid": "ANONDEVICE001"
+        },
+        {
+          "test_name": "pr",
+          "label": "Pulse Rate",
+          "value": "60",
+          "unit": "bpm",
+          "date_time": "2026-03-05 14:03:06",
+          "equipid": "ANONDEVICE001",
+          "ref_range": "60-100"
+        },
+        {
+          "test_name": "rr",
+          "label": "Respiratory Rate",
+          "value": "20",
+          "unit": "rpm",
+          "date_time": "2026-03-05 14:03:06",
+          "equipid": "ANONDEVICE001",
+          "ref_range": "12-20"
+        },
+        {
+          "test_name": "temp_t1",
+          "label": "Body Temperature T1",
+          "value": "36.0",
+          "unit": "°C",
+          "date_time": "2026-03-05 14:03:06",
+          "equipid": "ANONDEVICE002",
+          "ref_range": "36.0-37.5"
+        },
+        {
+          "test_name": "temp_t2",
+          "label": "Body Temperature T2",
+          "value": "36.7",
+          "unit": "°C",
+          "date_time": "2026-03-05 14:03:06",
+          "equipid": "ANONDEVICE002",
+          "ref_range": "36.0-37.5"
+        },
+        {
+          "test_name": "temp_td",
+          "label": "Temperature Difference",
+          "value": "0.7",
+          "unit": "°C",
+          "date_time": "2026-03-05 14:03:06",
+          "equipid": "ANONDEVICE002"
+        }
+      ]
+    }
+  },
+  {
+    "patient": {
+      "pid": "ANON123456",
+      "vid": "",
+      "name": "ANON PATIENT",
+      "gender": "male"
+    },
+    "result": {
+      "data_vital_sign": [
+        {
+          "test_name": "hr",
+          "label": "Heart Rate (ECG)",
+          "value": "60",
+          "unit": "bpm",
+          "date_time": "2026-03-05 14:03:07",
+          "equipid": "ANONDEVICE001",
+          "ref_range": "60-100"
+        },
+        {
+          "test_name": "ecg_pvcs",
+          "label": "PVCs",
+          "value": "10",
+          "unit": "/min",
+          "date_time": "2026-03-05 14:03:07",
+          "equipid": "ANONDEVICE001"
+        },
+        {
+          "test_name": "ecg_pause",
+          "label": "ECG Pause Min",
+          "value": "3",
+          "unit": "/min",
+          "date_time": "2026-03-05 14:03:07",
+          "equipid": "ANONDEVICE001"
+        },
+        {
+          "test_name": "spo2_a",
+          "label": "Oxygen Saturation (A)",
+          "value": "98",
+          "unit": "%",
+          "date_time": "2026-03-05 14:03:07",
+          "equipid": "ANONDEVICE001",
+          "ref_range": "95-100"
+        },
+        {
+          "test_name": "spo2_b",
+          "label": "Oxygen Saturation (B)",
+          "value": "98",
+          "unit": "%",
+          "date_time": "2026-03-05 14:03:07",
+          "equipid": "ANONDEVICE001",
+          "ref_range": "95-100"
+        },
+        {
+          "test_name": "spo2_delta",
+          "label": "SpO2 Delta",
+          "value": "0",
+          "unit": "%",
+          "date_time": "2026-03-05 14:03:07",
+          "equipid": "ANONDEVICE001"
+        },
+        {
+          "test_name": "pr",
+          "label": "Pulse Rate",
+          "value": "60",
+          "unit": "bpm",
+          "date_time": "2026-03-05 14:03:07",
+          "equipid": "ANONDEVICE001",
+          "ref_range": "60-100"
+        },
+        {
+          "test_name": "rr",
+          "label": "Respiratory Rate",
+          "value": "20",
+          "unit": "rpm",
+          "date_time": "2026-03-05 14:03:07",
+          "equipid": "ANONDEVICE001",
+          "ref_range": "12-20"
+        },
+        {
+          "test_name": "temp_t1",
+          "label": "Body Temperature T1",
+          "value": "36.0",
+          "unit": "°C",
+          "date_time": "2026-03-05 14:03:07",
+          "equipid": "ANONDEVICE002",
+          "ref_range": "36.0-37.5"
+        },
+        {
+          "test_name": "temp_t2",
+          "label": "Body Temperature T2",
+          "value": "36.7",
+          "unit": "°C",
+          "date_time": "2026-03-05 14:03:07",
+          "equipid": "ANONDEVICE002",
+          "ref_range": "36.0-37.5"
+        },
+        {
+          "test_name": "temp_td",
+          "label": "Temperature Difference",
+          "value": "0.7",
+          "unit": "°C",
+          "date_time": "2026-03-05 14:03:07",
+          "equipid": "ANONDEVICE002"
+        }
+      ]
+    }
+  },
+  {
+    "patient": {
+      "pid": "ANON123456",
+      "vid": "",
+      "name": "ANON PATIENT",
+      "gender": "male"
+    },
+    "result": {
+      "data_vital_sign": [
+        {
+          "test_name": "hr",
+          "label": "Heart Rate (ECG)",
+          "value": "60",
+          "unit": "bpm",
+          "date_time": "2026-03-05 14:03:08",
+          "equipid": "ANONDEVICE001",
+          "ref_range": "60-100"
+        },
+        {
+          "test_name": "ecg_pvcs",
+          "label": "PVCs",
+          "value": "10",
+          "unit": "/min",
+          "date_time": "2026-03-05 14:03:08",
+          "equipid": "ANONDEVICE001"
+        },
+        {
+          "test_name": "ecg_pause",
+          "label": "ECG Pause Min",
+          "value": "3",
+          "unit": "/min",
+          "date_time": "2026-03-05 14:03:08",
+          "equipid": "ANONDEVICE001"
+        },
+        {
+          "test_name": "spo2_a",
+          "label": "Oxygen Saturation (A)",
+          "value": "98",
+          "unit": "%",
+          "date_time": "2026-03-05 14:03:08",
+          "equipid": "ANONDEVICE001",
+          "ref_range": "95-100"
+        },
+        {
+          "test_name": "spo2_b",
+          "label": "Oxygen Saturation (B)",
+          "value": "98",
+          "unit": "%",
+          "date_time": "2026-03-05 14:03:08",
+          "equipid": "ANONDEVICE001",
+          "ref_range": "95-100"
+        },
+        {
+          "test_name": "spo2_delta",
+          "label": "SpO2 Delta",
+          "value": "0",
+          "unit": "%",
+          "date_time": "2026-03-05 14:03:08",
+          "equipid": "ANONDEVICE001"
+        },
+        {
+          "test_name": "pr",
+          "label": "Pulse Rate",
+          "value": "60",
+          "unit": "bpm",
+          "date_time": "2026-03-05 14:03:08",
+          "equipid": "ANONDEVICE001",
+          "ref_range": "60-100"
+        },
+        {
+          "test_name": "rr",
+          "label": "Respiratory Rate",
+          "value": "20",
+          "unit": "rpm",
+          "date_time": "2026-03-05 14:03:08",
+          "equipid": "ANONDEVICE001",
+          "ref_range": "12-20"
+        },
+        {
+          "test_name": "temp_t1",
+          "label": "Body Temperature T1",
+          "value": "36.0",
+          "unit": "°C",
+          "date_time": "2026-03-05 14:03:08",
+          "equipid": "ANONDEVICE002",
+          "ref_range": "36.0-37.5"
+        },
+        {
+          "test_name": "temp_t2",
+          "label": "Body Temperature T2",
+          "value": "36.7",
+          "unit": "°C",
+          "date_time": "2026-03-05 14:03:08",
+          "equipid": "ANONDEVICE002",
+          "ref_range": "36.0-37.5"
+        },
+        {
+          "test_name": "temp_td",
+          "label": "Temperature Difference",
+          "value": "0.7",
+          "unit": "°C",
+          "date_time": "2026-03-05 14:03:08",
+          "equipid": "ANONDEVICE002"
+        }
+      ]
+    }
+  },
+  {
+    "patient": {
+      "pid": "ANON123456",
+      "vid": "",
+      "name": "ANON PATIENT",
+      "gender": "male"
+    },
+    "result": {
+      "data_vital_sign": [
+        {
+          "test_name": "hr",
+          "label": "Heart Rate (ECG)",
+          "value": "60",
+          "unit": "bpm",
+          "date_time": "2026-03-05 14:03:09",
+          "equipid": "ANONDEVICE001",
+          "ref_range": "60-100"
+        },
+        {
+          "test_name": "ecg_pvcs",
+          "label": "PVCs",
+          "value": "10",
+          "unit": "/min",
+          "date_time": "2026-03-05 14:03:09",
+          "equipid": "ANONDEVICE001"
+        },
+        {
+          "test_name": "ecg_pause",
+          "label": "ECG Pause Min",
+          "value": "3",
+          "unit": "/min",
+          "date_time": "2026-03-05 14:03:09",
+          "equipid": "ANONDEVICE001"
+        },
+        {
+          "test_name": "spo2_a",
+          "label": "Oxygen Saturation (A)",
+          "value": "98",
+          "unit": "%",
+          "date_time": "2026-03-05 14:03:09",
+          "equipid": "ANONDEVICE001",
+          "ref_range": "95-100"
+        },
+        {
+          "test_name": "spo2_b",
+          "label": "Oxygen Saturation (B)",
+          "value": "98",
+          "unit": "%",
+          "date_time": "2026-03-05 14:03:09",
+          "equipid": "ANONDEVICE001",
+          "ref_range": "95-100"
+        },
+        {
+          "test_name": "spo2_delta",
+          "label": "SpO2 Delta",
+          "value": "0",
+          "unit": "%",
+          "date_time": "2026-03-05 14:03:09",
+          "equipid": "ANONDEVICE001"
+        },
+        {
+          "test_name": "pr",
+          "label": "Pulse Rate",
+          "value": "60",
+          "unit": "bpm",
+          "date_time": "2026-03-05 14:03:09",
+          "equipid": "ANONDEVICE001",
+          "ref_range": "60-100"
+        },
+        {
+          "test_name": "rr",
+          "label": "Respiratory Rate",
+          "value": "20",
+          "unit": "rpm",
+          "date_time": "2026-03-05 14:03:09",
+          "equipid": "ANONDEVICE001",
+          "ref_range": "12-20"
+        },
+        {
+          "test_name": "temp_t1",
+          "label": "Body Temperature T1",
+          "value": "36.0",
+          "unit": "°C",
+          "date_time": "2026-03-05 14:03:09",
+          "equipid": "ANONDEVICE002",
+          "ref_range": "36.0-37.5"
+        },
+        {
+          "test_name": "temp_t2",
+          "label": "Body Temperature T2",
+          "value": "36.7",
+          "unit": "°C",
+          "date_time": "2026-03-05 14:03:09",
+          "equipid": "ANONDEVICE002",
+          "ref_range": "36.0-37.5"
+        },
+        {
+          "test_name": "temp_td",
+          "label": "Temperature Difference",
+          "value": "0.7",
+          "unit": "°C",
+          "date_time": "2026-03-05 14:03:09",
+          "equipid": "ANONDEVICE002"
+        }
+      ]
+    }
+  },
+  {
+    "patient": {
+      "pid": "ANON123456",
+      "vid": "",
+      "name": "ANON PATIENT",
+      "gender": "male"
+    },
+    "result": {
+      "data_vital_sign": [
+        {
+          "test_name": "hr",
+          "label": "Heart Rate (ECG)",
+          "value": "60",
+          "unit": "bpm",
+          "date_time": "2026-03-05 14:03:10",
+          "equipid": "ANONDEVICE001",
+          "ref_range": "60-100"
+        },
+        {
+          "test_name": "ecg_pvcs",
+          "label": "PVCs",
+          "value": "10",
+          "unit": "/min",
+          "date_time": "2026-03-05 14:03:10",
+          "equipid": "ANONDEVICE001"
+        },
+        {
+          "test_name": "ecg_pause",
+          "label": "ECG Pause Min",
+          "value": "3",
+          "unit": "/min",
+          "date_time": "2026-03-05 14:03:10",
+          "equipid": "ANONDEVICE001"
+        },
+        {
+          "test_name": "spo2_a",
+          "label": "Oxygen Saturation (A)",
+          "value": "98",
+          "unit": "%",
+          "date_time": "2026-03-05 14:03:10",
+          "equipid": "ANONDEVICE001",
+          "ref_range": "95-100"
+        },
+        {
+          "test_name": "spo2_b",
+          "label": "Oxygen Saturation (B)",
+          "value": "98",
+          "unit": "%",
+          "date_time": "2026-03-05 14:03:10",
+          "equipid": "ANONDEVICE001",
+          "ref_range": "95-100"
+        },
+        {
+          "test_name": "spo2_delta",
+          "label": "SpO2 Delta",
+          "value": "0",
+          "unit": "%",
+          "date_time": "2026-03-05 14:03:10",
+          "equipid": "ANONDEVICE001"
+        },
+        {
+          "test_name": "pr",
+          "label": "Pulse Rate",
+          "value": "60",
+          "unit": "bpm",
+          "date_time": "2026-03-05 14:03:10",
+          "equipid": "ANONDEVICE001",
+          "ref_range": "60-100"
+        },
+        {
+          "test_name": "rr",
+          "label": "Respiratory Rate",
+          "value": "20",
+          "unit": "rpm",
+          "date_time": "2026-03-05 14:03:10",
+          "equipid": "ANONDEVICE001",
+          "ref_range": "12-20"
+        },
+        {
+          "test_name": "temp_t1",
+          "label": "Body Temperature T1",
+          "value": "36.0",
+          "unit": "°C",
+          "date_time": "2026-03-05 14:03:10",
+          "equipid": "ANONDEVICE002",
+          "ref_range": "36.0-37.5"
+        },
+        {
+          "test_name": "temp_t2",
+          "label": "Body Temperature T2",
+          "value": "36.7",
+          "unit": "°C",
+          "date_time": "2026-03-05 14:03:10",
+          "equipid": "ANONDEVICE002",
+          "ref_range": "36.0-37.5"
+        },
+        {
+          "test_name": "temp_td",
+          "label": "Temperature Difference",
+          "value": "0.7",
+          "unit": "°C",
+          "date_time": "2026-03-05 14:03:10",
+          "equipid": "ANONDEVICE002"
+        }
+      ]
+    }
+  },
+  {
+    "patient": {
+      "pid": "ANON123456",
+      "vid": "",
+      "name": "ANON PATIENT",
+      "gender": "male"
+    },
+    "result": {
+      "data_vital_sign": [
+        {
+          "test_name": "hr",
+          "label": "Heart Rate (ECG)",
+          "value": "60",
+          "unit": "bpm",
+          "date_time": "2026-03-05 14:03:11",
+          "equipid": "ANONDEVICE001",
+          "ref_range": "60-100"
+        },
+        {
+          "test_name": "ecg_pvcs",
+          "label": "PVCs",
+          "value": "10",
+          "unit": "/min",
+          "date_time": "2026-03-05 14:03:11",
+          "equipid": "ANONDEVICE001"
+        },
+        {
+          "test_name": "ecg_pause",
+          "label": "ECG Pause Min",
+          "value": "3",
+          "unit": "/min",
+          "date_time": "2026-03-05 14:03:11",
+          "equipid": "ANONDEVICE001"
+        },
+        {
+          "test_name": "spo2_a",
+          "label": "Oxygen Saturation (A)",
+          "value": "98",
+          "unit": "%",
+          "date_time": "2026-03-05 14:03:11",
+          "equipid": "ANONDEVICE001",
+          "ref_range": "95-100"
+        },
+        {
+          "test_name": "spo2_b",
+          "label": "Oxygen Saturation (B)",
+          "value": "98",
+          "unit": "%",
+          "date_time": "2026-03-05 14:03:11",
+          "equipid": "ANONDEVICE001",
+          "ref_range": "95-100"
+        },
+        {
+          "test_name": "spo2_delta",
+          "label": "SpO2 Delta",
+          "value": "0",
+          "unit": "%",
+          "date_time": "2026-03-05 14:03:11",
+          "equipid": "ANONDEVICE001"
+        },
+        {
+          "test_name": "pr",
+          "label": "Pulse Rate",
+          "value": "60",
+          "unit": "bpm",
+          "date_time": "2026-03-05 14:03:11",
+          "equipid": "ANONDEVICE001",
+          "ref_range": "60-100"
+        },
+        {
+          "test_name": "rr",
+          "label": "Respiratory Rate",
+          "value": "20",
+          "unit": "rpm",
+          "date_time": "2026-03-05 14:03:11",
+          "equipid": "ANONDEVICE001",
+          "ref_range": "12-20"
+        },
+        {
+          "test_name": "temp_t1",
+          "label": "Body Temperature T1",
+          "value": "36.0",
+          "unit": "°C",
+          "date_time": "2026-03-05 14:03:11",
+          "equipid": "ANONDEVICE002",
+          "ref_range": "36.0-37.5"
+        },
+        {
+          "test_name": "temp_t2",
+          "label": "Body Temperature T2",
+          "value": "36.7",
+          "unit": "°C",
+          "date_time": "2026-03-05 14:03:11",
+          "equipid": "ANONDEVICE002",
+          "ref_range": "36.0-37.5"
+        },
+        {
+          "test_name": "temp_td",
+          "label": "Temperature Difference",
+          "value": "0.7",
+          "unit": "°C",
+          "date_time": "2026-03-05 14:03:11",
+          "equipid": "ANONDEVICE002"
+        }
+      ]
+    }
+  },
+  {
+    "patient": {
+      "pid": "ANON123456",
+      "vid": "",
+      "name": "ANON PATIENT",
+      "gender": "male"
+    },
+    "result": {
+      "data_vital_sign": [
+        {
+          "test_name": "hr",
+          "label": "Heart Rate (ECG)",
+          "value": "60",
+          "unit": "bpm",
+          "date_time": "2026-03-05 14:03:12",
+          "equipid": "ANONDEVICE001",
+          "ref_range": "60-100"
+        },
+        {
+          "test_name": "ecg_pvcs",
+          "label": "PVCs",
+          "value": "10",
+          "unit": "/min",
+          "date_time": "2026-03-05 14:03:12",
+          "equipid": "ANONDEVICE001"
+        },
+        {
+          "test_name": "ecg_pause",
+          "label": "ECG Pause Min",
+          "value": "3",
+          "unit": "/min",
+          "date_time": "2026-03-05 14:03:12",
+          "equipid": "ANONDEVICE001"
+        },
+        {
+          "test_name": "spo2_a",
+          "label": "Oxygen Saturation (A)",
+          "value": "98",
+          "unit": "%",
+          "date_time": "2026-03-05 14:03:12",
+          "equipid": "ANONDEVICE001",
+          "ref_range": "95-100"
+        },
+        {
+          "test_name": "spo2_b",
+          "label": "Oxygen Saturation (B)",
+          "value": "98",
+          "unit": "%",
+          "date_time": "2026-03-05 14:03:12",
+          "equipid": "ANONDEVICE001",
+          "ref_range": "95-100"
+        },
+        {
+          "test_name": "spo2_delta",
+          "label": "SpO2 Delta",
+          "value": "0",
+          "unit": "%",
+          "date_time": "2026-03-05 14:03:12",
+          "equipid": "ANONDEVICE001"
+        },
+        {
+          "test_name": "pr",
+          "label": "Pulse Rate",
+          "value": "60",
+          "unit": "bpm",
+          "date_time": "2026-03-05 14:03:12",
+          "equipid": "ANONDEVICE001",
+          "ref_range": "60-100"
+        },
+        {
+          "test_name": "rr",
+          "label": "Respiratory Rate",
+          "value": "20",
+          "unit": "rpm",
+          "date_time": "2026-03-05 14:03:12",
+          "equipid": "ANONDEVICE001",
+          "ref_range": "12-20"
+        },
+        {
+          "test_name": "temp_t1",
+          "label": "Body Temperature T1",
+          "value": "36.0",
+          "unit": "°C",
+          "date_time": "2026-03-05 14:03:12",
+          "equipid": "ANONDEVICE002",
+          "ref_range": "36.0-37.5"
+        },
+        {
+          "test_name": "temp_t2",
+          "label": "Body Temperature T2",
+          "value": "36.7",
+          "unit": "°C",
+          "date_time": "2026-03-05 14:03:12",
+          "equipid": "ANONDEVICE002",
+          "ref_range": "36.0-37.5"
+        },
+        {
+          "test_name": "temp_td",
+          "label": "Temperature Difference",
+          "value": "0.7",
+          "unit": "°C",
+          "date_time": "2026-03-05 14:03:12",
+          "equipid": "ANONDEVICE002"
+        }
+      ]
+    }
+  },
+  {
+    "patient": {
+      "pid": "ANON123456",
+      "vid": "",
+      "name": "ANON PATIENT",
+      "gender": "male"
+    },
+    "result": {
+      "data_vital_sign": [
+        {
+          "test_name": "hr",
+          "label": "Heart Rate (ECG)",
+          "value": "60",
+          "unit": "bpm",
+          "date_time": "2026-03-05 14:03:13",
+          "equipid": "ANONDEVICE001",
+          "ref_range": "60-100"
+        },
+        {
+          "test_name": "ecg_pvcs",
+          "label": "PVCs",
+          "value": "10",
+          "unit": "/min",
+          "date_time": "2026-03-05 14:03:13",
+          "equipid": "ANONDEVICE001"
+        },
+        {
+          "test_name": "ecg_pause",
+          "label": "ECG Pause Min",
+          "value": "3",
+          "unit": "/min",
+          "date_time": "2026-03-05 14:03:13",
+          "equipid": "ANONDEVICE001"
+        },
+        {
+          "test_name": "spo2_a",
+          "label": "Oxygen Saturation (A)",
+          "value": "98",
+          "unit": "%",
+          "date_time": "2026-03-05 14:03:13",
+          "equipid": "ANONDEVICE001",
+          "ref_range": "95-100"
+        },
+        {
+          "test_name": "spo2_b",
+          "label": "Oxygen Saturation (B)",
+          "value": "98",
+          "unit": "%",
+          "date_time": "2026-03-05 14:03:13",
+          "equipid": "ANONDEVICE001",
+          "ref_range": "95-100"
+        },
+        {
+          "test_name": "spo2_delta",
+          "label": "SpO2 Delta",
+          "value": "0",
+          "unit": "%",
+          "date_time": "2026-03-05 14:03:13",
+          "equipid": "ANONDEVICE001"
+        },
+        {
+          "test_name": "pr",
+          "label": "Pulse Rate",
+          "value": "60",
+          "unit": "bpm",
+          "date_time": "2026-03-05 14:03:13",
+          "equipid": "ANONDEVICE001",
+          "ref_range": "60-100"
+        },
+        {
+          "test_name": "rr",
+          "label": "Respiratory Rate",
+          "value": "20",
+          "unit": "rpm",
+          "date_time": "2026-03-05 14:03:13",
+          "equipid": "ANONDEVICE001",
+          "ref_range": "12-20"
+        },
+        {
+          "test_name": "temp_t1",
+          "label": "Body Temperature T1",
+          "value": "36.0",
+          "unit": "°C",
+          "date_time": "2026-03-05 14:03:13",
+          "equipid": "ANONDEVICE002",
+          "ref_range": "36.0-37.5"
+        },
+        {
+          "test_name": "temp_t2",
+          "label": "Body Temperature T2",
+          "value": "36.7",
+          "unit": "°C",
+          "date_time": "2026-03-05 14:03:13",
+          "equipid": "ANONDEVICE002",
+          "ref_range": "36.0-37.5"
+        },
+        {
+          "test_name": "temp_td",
+          "label": "Temperature Difference",
+          "value": "0.7",
+          "unit": "°C",
+          "date_time": "2026-03-05 14:03:13",
+          "equipid": "ANONDEVICE002"
+        }
+      ]
+    }
+  },
+  {
+    "patient": {
+      "pid": "ANON123456",
+      "vid": "",
+      "name": "ANON PATIENT",
+      "gender": "male"
+    },
+    "result": {
+      "data_vital_sign": [
+        {
+          "test_name": "hr",
+          "label": "Heart Rate (ECG)",
+          "value": "60",
+          "unit": "bpm",
+          "date_time": "2026-03-05 14:03:14",
+          "equipid": "ANONDEVICE001",
+          "ref_range": "60-100"
+        },
+        {
+          "test_name": "ecg_pvcs",
+          "label": "PVCs",
+          "value": "10",
+          "unit": "/min",
+          "date_time": "2026-03-05 14:03:14",
+          "equipid": "ANONDEVICE001"
+        },
+        {
+          "test_name": "ecg_pause",
+          "label": "ECG Pause Min",
+          "value": "3",
+          "unit": "/min",
+          "date_time": "2026-03-05 14:03:14",
+          "equipid": "ANONDEVICE001"
+        },
+        {
+          "test_name": "spo2_a",
+          "label": "Oxygen Saturation (A)",
+          "value": "98",
+          "unit": "%",
+          "date_time": "2026-03-05 14:03:14",
+          "equipid": "ANONDEVICE001",
+          "ref_range": "95-100"
+        },
+        {
+          "test_name": "spo2_b",
+          "label": "Oxygen Saturation (B)",
+          "value": "98",
+          "unit": "%",
+          "date_time": "2026-03-05 14:03:14",
+          "equipid": "ANONDEVICE001",
+          "ref_range": "95-100"
+        },
+        {
+          "test_name": "spo2_delta",
+          "label": "SpO2 Delta",
+          "value": "0",
+          "unit": "%",
+          "date_time": "2026-03-05 14:03:14",
+          "equipid": "ANONDEVICE001"
+        },
+        {
+          "test_name": "pr",
+          "label": "Pulse Rate",
+          "value": "60",
+          "unit": "bpm",
+          "date_time": "2026-03-05 14:03:14",
+          "equipid": "ANONDEVICE001",
+          "ref_range": "60-100"
+        },
+        {
+          "test_name": "rr",
+          "label": "Respiratory Rate",
+          "value": "20",
+          "unit": "rpm",
+          "date_time": "2026-03-05 14:03:14",
+          "equipid": "ANONDEVICE001",
+          "ref_range": "12-20"
+        },
+        {
+          "test_name": "temp_t1",
+          "label": "Body Temperature T1",
+          "value": "36.0",
+          "unit": "°C",
+          "date_time": "2026-03-05 14:03:14",
+          "equipid": "ANONDEVICE002",
+          "ref_range": "36.0-37.5"
+        },
+        {
+          "test_name": "temp_t2",
+          "label": "Body Temperature T2",
+          "value": "36.7",
+          "unit": "°C",
+          "date_time": "2026-03-05 14:03:14",
+          "equipid": "ANONDEVICE002",
+          "ref_range": "36.0-37.5"
+        },
+        {
+          "test_name": "temp_td",
+          "label": "Temperature Difference",
+          "value": "0.7",
+          "unit": "°C",
+          "date_time": "2026-03-05 14:03:14",
+          "equipid": "ANONDEVICE002"
+        }
+      ]
+    }
+  },
+  {
+    "patient": {
+      "pid": "ANON123456",
+      "vid": "",
+      "name": "ANON PATIENT",
+      "gender": "male"
+    },
+    "result": {
+      "data_vital_sign": [
+        {
+          "test_name": "hr",
+          "label": "Heart Rate (ECG)",
+          "value": "60",
+          "unit": "bpm",
+          "date_time": "2026-03-05 14:03:15",
+          "equipid": "ANONDEVICE001",
+          "ref_range": "60-100"
+        },
+        {
+          "test_name": "ecg_pvcs",
+          "label": "PVCs",
+          "value": "10",
+          "unit": "/min",
+          "date_time": "2026-03-05 14:03:15",
+          "equipid": "ANONDEVICE001"
+        },
+        {
+          "test_name": "ecg_pause",
+          "label": "ECG Pause Min",
+          "value": "3",
+          "unit": "/min",
+          "date_time": "2026-03-05 14:03:15",
+          "equipid": "ANONDEVICE001"
+        },
+        {
+          "test_name": "spo2_a",
+          "label": "Oxygen Saturation (A)",
+          "value": "98",
+          "unit": "%",
+          "date_time": "2026-03-05 14:03:15",
+          "equipid": "ANONDEVICE001",
+          "ref_range": "95-100"
+        },
+        {
+          "test_name": "spo2_b",
+          "label": "Oxygen Saturation (B)",
+          "value": "98",
+          "unit": "%",
+          "date_time": "2026-03-05 14:03:15",
+          "equipid": "ANONDEVICE001",
+          "ref_range": "95-100"
+        },
+        {
+          "test_name": "spo2_delta",
+          "label": "SpO2 Delta",
+          "value": "0",
+          "unit": "%",
+          "date_time": "2026-03-05 14:03:15",
+          "equipid": "ANONDEVICE001"
+        },
+        {
+          "test_name": "pr",
+          "label": "Pulse Rate",
+          "value": "60",
+          "unit": "bpm",
+          "date_time": "2026-03-05 14:03:15",
+          "equipid": "ANONDEVICE001",
+          "ref_range": "60-100"
+        },
+        {
+          "test_name": "rr",
+          "label": "Respiratory Rate",
+          "value": "20",
+          "unit": "rpm",
+          "date_time": "2026-03-05 14:03:15",
+          "equipid": "ANONDEVICE001",
+          "ref_range": "12-20"
+        },
+        {
+          "test_name": "temp_t1",
+          "label": "Body Temperature T1",
+          "value": "36.0",
+          "unit": "°C",
+          "date_time": "2026-03-05 14:03:15",
+          "equipid": "ANONDEVICE002",
+          "ref_range": "36.0-37.5"
+        },
+        {
+          "test_name": "temp_t2",
+          "label": "Body Temperature T2",
+          "value": "36.7",
+          "unit": "°C",
+          "date_time": "2026-03-05 14:03:15",
+          "equipid": "ANONDEVICE002",
+          "ref_range": "36.0-37.5"
+        },
+        {
+          "test_name": "temp_td",
+          "label": "Temperature Difference",
+          "value": "0.7",
+          "unit": "°C",
+          "date_time": "2026-03-05 14:03:15",
+          "equipid": "ANONDEVICE002"
+        }
+      ]
+    }
+  },
+  {
+    "patient": {
+      "pid": "ANON123456",
+      "vid": "",
+      "name": "ANON PATIENT",
+      "gender": "male"
+    },
+    "result": {
+      "data_vital_sign": [
+        {
+          "test_name": "hr",
+          "label": "Heart Rate (ECG)",
+          "value": "60",
+          "unit": "bpm",
+          "date_time": "2026-03-05 14:03:16",
+          "equipid": "ANONDEVICE001",
+          "ref_range": "60-100"
+        },
+        {
+          "test_name": "ecg_pvcs",
+          "label": "PVCs",
+          "value": "10",
+          "unit": "/min",
+          "date_time": "2026-03-05 14:03:16",
+          "equipid": "ANONDEVICE001"
+        },
+        {
+          "test_name": "ecg_pause",
+          "label": "ECG Pause Min",
+          "value": "3",
+          "unit": "/min",
+          "date_time": "2026-03-05 14:03:16",
+          "equipid": "ANONDEVICE001"
+        },
+        {
+          "test_name": "spo2_a",
+          "label": "Oxygen Saturation (A)",
+          "value": "98",
+          "unit": "%",
+          "date_time": "2026-03-05 14:03:16",
+          "equipid": "ANONDEVICE001",
+          "ref_range": "95-100"
+        },
+        {
+          "test_name": "spo2_b",
+          "label": "Oxygen Saturation (B)",
+          "value": "98",
+          "unit": "%",
+          "date_time": "2026-03-05 14:03:16",
+          "equipid": "ANONDEVICE001",
+          "ref_range": "95-100"
+        },
+        {
+          "test_name": "spo2_delta",
+          "label": "SpO2 Delta",
+          "value": "0",
+          "unit": "%",
+          "date_time": "2026-03-05 14:03:16",
+          "equipid": "ANONDEVICE001"
+        },
+        {
+          "test_name": "pr",
+          "label": "Pulse Rate",
+          "value": "60",
+          "unit": "bpm",
+          "date_time": "2026-03-05 14:03:16",
+          "equipid": "ANONDEVICE001",
+          "ref_range": "60-100"
+        },
+        {
+          "test_name": "rr",
+          "label": "Respiratory Rate",
+          "value": "20",
+          "unit": "rpm",
+          "date_time": "2026-03-05 14:03:16",
+          "equipid": "ANONDEVICE001",
+          "ref_range": "12-20"
+        },
+        {
+          "test_name": "temp_t1",
+          "label": "Body Temperature T1",
+          "value": "36.0",
+          "unit": "°C",
+          "date_time": "2026-03-05 14:03:16",
+          "equipid": "ANONDEVICE002",
+          "ref_range": "36.0-37.5"
+        },
+        {
+          "test_name": "temp_t2",
+          "label": "Body Temperature T2",
+          "value": "36.7",
+          "unit": "°C",
+          "date_time": "2026-03-05 14:03:16",
+          "equipid": "ANONDEVICE002",
+          "ref_range": "36.0-37.5"
+        },
+        {
+          "test_name": "temp_td",
+          "label": "Temperature Difference",
+          "value": "0.7",
+          "unit": "°C",
+          "date_time": "2026-03-05 14:03:16",
+          "equipid": "ANONDEVICE002"
+        }
+      ]
+    }
+  },
+  {
+    "patient": {
+      "pid": "ANON123456",
+      "vid": "",
+      "name": "ANON PATIENT",
+      "gender": "male"
+    },
+    "result": {
+      "data_vital_sign": [
+        {
+          "test_name": "hr",
+          "label": "Heart Rate (ECG)",
+          "value": "60",
+          "unit": "bpm",
+          "date_time": "2026-03-05 14:03:17",
+          "equipid": "ANONDEVICE001",
+          "ref_range": "60-100"
+        },
+        {
+          "test_name": "ecg_pvcs",
+          "label": "PVCs",
+          "value": "10",
+          "unit": "/min",
+          "date_time": "2026-03-05 14:03:17",
+          "equipid": "ANONDEVICE001"
+        },
+        {
+          "test_name": "ecg_pause",
+          "label": "ECG Pause Min",
+          "value": "3",
+          "unit": "/min",
+          "date_time": "2026-03-05 14:03:17",
+          "equipid": "ANONDEVICE001"
+        },
+        {
+          "test_name": "spo2_a",
+          "label": "Oxygen Saturation (A)",
+          "value": "98",
+          "unit": "%",
+          "date_time": "2026-03-05 14:03:17",
+          "equipid": "ANONDEVICE001",
+          "ref_range": "95-100"
+        },
+        {
+          "test_name": "spo2_b",
+          "label": "Oxygen Saturation (B)",
+          "value": "98",
+          "unit": "%",
+          "date_time": "2026-03-05 14:03:17",
+          "equipid": "ANONDEVICE001",
+          "ref_range": "95-100"
+        },
+        {
+          "test_name": "spo2_delta",
+          "label": "SpO2 Delta",
+          "value": "0",
+          "unit": "%",
+          "date_time": "2026-03-05 14:03:17",
+          "equipid": "ANONDEVICE001"
+        },
+        {
+          "test_name": "pr",
+          "label": "Pulse Rate",
+          "value": "60",
+          "unit": "bpm",
+          "date_time": "2026-03-05 14:03:17",
+          "equipid": "ANONDEVICE001",
+          "ref_range": "60-100"
+        },
+        {
+          "test_name": "rr",
+          "label": "Respiratory Rate",
+          "value": "20",
+          "unit": "rpm",
+          "date_time": "2026-03-05 14:03:17",
+          "equipid": "ANONDEVICE001",
+          "ref_range": "12-20"
+        },
+        {
+          "test_name": "temp_t1",
+          "label": "Body Temperature T1",
+          "value": "36.0",
+          "unit": "°C",
+          "date_time": "2026-03-05 14:03:17",
+          "equipid": "ANONDEVICE002",
+          "ref_range": "36.0-37.5"
+        },
+        {
+          "test_name": "temp_t2",
+          "label": "Body Temperature T2",
+          "value": "36.7",
+          "unit": "°C",
+          "date_time": "2026-03-05 14:03:17",
+          "equipid": "ANONDEVICE002",
+          "ref_range": "36.0-37.5"
+        },
+        {
+          "test_name": "temp_td",
+          "label": "Temperature Difference",
+          "value": "0.7",
+          "unit": "°C",
+          "date_time": "2026-03-05 14:03:17",
+          "equipid": "ANONDEVICE002"
+        }
+      ]
+    }
+  },
+  {
+    "patient": {
+      "pid": "ANON123456",
+      "vid": "",
+      "name": "ANON PATIENT",
+      "gender": "male"
+    },
+    "result": {
+      "data_vital_sign": [
+        {
+          "test_name": "hr",
+          "label": "Heart Rate (ECG)",
+          "value": "60",
+          "unit": "bpm",
+          "date_time": "2026-03-05 14:03:18",
+          "equipid": "ANONDEVICE001",
+          "ref_range": "60-100"
+        },
+        {
+          "test_name": "ecg_pvcs",
+          "label": "PVCs",
+          "value": "10",
+          "unit": "/min",
+          "date_time": "2026-03-05 14:03:18",
+          "equipid": "ANONDEVICE001"
+        },
+        {
+          "test_name": "ecg_pause",
+          "label": "ECG Pause Min",
+          "value": "3",
+          "unit": "/min",
+          "date_time": "2026-03-05 14:03:18",
+          "equipid": "ANONDEVICE001"
+        },
+        {
+          "test_name": "spo2_a",
+          "label": "Oxygen Saturation (A)",
+          "value": "98",
+          "unit": "%",
+          "date_time": "2026-03-05 14:03:18",
+          "equipid": "ANONDEVICE001",
+          "ref_range": "95-100"
+        },
+        {
+          "test_name": "spo2_b",
+          "label": "Oxygen Saturation (B)",
+          "value": "98",
+          "unit": "%",
+          "date_time": "2026-03-05 14:03:18",
+          "equipid": "ANONDEVICE001",
+          "ref_range": "95-100"
+        },
+        {
+          "test_name": "spo2_delta",
+          "label": "SpO2 Delta",
+          "value": "0",
+          "unit": "%",
+          "date_time": "2026-03-05 14:03:18",
+          "equipid": "ANONDEVICE001"
+        },
+        {
+          "test_name": "pr",
+          "label": "Pulse Rate",
+          "value": "60",
+          "unit": "bpm",
+          "date_time": "2026-03-05 14:03:18",
+          "equipid": "ANONDEVICE001",
+          "ref_range": "60-100"
+        },
+        {
+          "test_name": "rr",
+          "label": "Respiratory Rate",
+          "value": "20",
+          "unit": "rpm",
+          "date_time": "2026-03-05 14:03:18",
+          "equipid": "ANONDEVICE001",
+          "ref_range": "12-20"
+        },
+        {
+          "test_name": "temp_t1",
+          "label": "Body Temperature T1",
+          "value": "36.0",
+          "unit": "°C",
+          "date_time": "2026-03-05 14:03:18",
+          "equipid": "ANONDEVICE002",
+          "ref_range": "36.0-37.5"
+        },
+        {
+          "test_name": "temp_t2",
+          "label": "Body Temperature T2",
+          "value": "36.7",
+          "unit": "°C",
+          "date_time": "2026-03-05 14:03:18",
+          "equipid": "ANONDEVICE002",
+          "ref_range": "36.0-37.5"
+        },
+        {
+          "test_name": "temp_td",
+          "label": "Temperature Difference",
+          "value": "0.7",
+          "unit": "°C",
+          "date_time": "2026-03-05 14:03:18",
+          "equipid": "ANONDEVICE002"
+        }
+      ]
+    }
+  },
+  {
+    "patient": {
+      "pid": "ANON123456",
+      "vid": "",
+      "name": "ANON PATIENT",
+      "gender": "male"
+    },
+    "result": {
+      "data_vital_sign": [
+        {
+          "test_name": "hr",
+          "label": "Heart Rate (ECG)",
+          "value": "60",
+          "unit": "bpm",
+          "date_time": "2026-03-05 14:03:19",
+          "equipid": "ANONDEVICE001",
+          "ref_range": "60-100"
+        },
+        {
+          "test_name": "ecg_pvcs",
+          "label": "PVCs",
+          "value": "10",
+          "unit": "/min",
+          "date_time": "2026-03-05 14:03:19",
+          "equipid": "ANONDEVICE001"
+        },
+        {
+          "test_name": "ecg_pause",
+          "label": "ECG Pause Min",
+          "value": "3",
+          "unit": "/min",
+          "date_time": "2026-03-05 14:03:19",
+          "equipid": "ANONDEVICE001"
+        },
+        {
+          "test_name": "spo2_a",
+          "label": "Oxygen Saturation (A)",
+          "value": "98",
+          "unit": "%",
+          "date_time": "2026-03-05 14:03:19",
+          "equipid": "ANONDEVICE001",
+          "ref_range": "95-100"
+        },
+        {
+          "test_name": "spo2_b",
+          "label": "Oxygen Saturation (B)",
+          "value": "98",
+          "unit": "%",
+          "date_time": "2026-03-05 14:03:19",
+          "equipid": "ANONDEVICE001",
+          "ref_range": "95-100"
+        },
+        {
+          "test_name": "spo2_delta",
+          "label": "SpO2 Delta",
+          "value": "0",
+          "unit": "%",
+          "date_time": "2026-03-05 14:03:19",
+          "equipid": "ANONDEVICE001"
+        },
+        {
+          "test_name": "pr",
+          "label": "Pulse Rate",
+          "value": "60",
+          "unit": "bpm",
+          "date_time": "2026-03-05 14:03:19",
+          "equipid": "ANONDEVICE001",
+          "ref_range": "60-100"
+        },
+        {
+          "test_name": "rr",
+          "label": "Respiratory Rate",
+          "value": "20",
+          "unit": "rpm",
+          "date_time": "2026-03-05 14:03:19",
+          "equipid": "ANONDEVICE001",
+          "ref_range": "12-20"
+        },
+        {
+          "test_name": "temp_t1",
+          "label": "Body Temperature T1",
+          "value": "36.0",
+          "unit": "°C",
+          "date_time": "2026-03-05 14:03:19",
+          "equipid": "ANONDEVICE002",
+          "ref_range": "36.0-37.5"
+        },
+        {
+          "test_name": "temp_t2",
+          "label": "Body Temperature T2",
+          "value": "36.7",
+          "unit": "°C",
+          "date_time": "2026-03-05 14:03:19",
+          "equipid": "ANONDEVICE002",
+          "ref_range": "36.0-37.5"
+        },
+        {
+          "test_name": "temp_td",
+          "label": "Temperature Difference",
+          "value": "0.7",
+          "unit": "°C",
+          "date_time": "2026-03-05 14:03:19",
+          "equipid": "ANONDEVICE002"
+        }
+      ]
+    }
+  },
+  {
+    "patient": {
+      "pid": "ANON123456",
+      "vid": "",
+      "name": "ANON PATIENT",
+      "gender": "male"
+    },
+    "result": {
+      "data_vital_sign": [
+        {
+          "test_name": "hr",
+          "label": "Heart Rate (ECG)",
+          "value": "60",
+          "unit": "bpm",
+          "date_time": "2026-03-05 14:03:20",
+          "equipid": "ANONDEVICE001",
+          "ref_range": "60-100"
+        },
+        {
+          "test_name": "ecg_pvcs",
+          "label": "PVCs",
+          "value": "10",
+          "unit": "/min",
+          "date_time": "2026-03-05 14:03:20",
+          "equipid": "ANONDEVICE001"
+        },
+        {
+          "test_name": "ecg_pause",
+          "label": "ECG Pause Min",
+          "value": "3",
+          "unit": "/min",
+          "date_time": "2026-03-05 14:03:20",
+          "equipid": "ANONDEVICE001"
+        },
+        {
+          "test_name": "spo2_a",
+          "label": "Oxygen Saturation (A)",
+          "value": "98",
+          "unit": "%",
+          "date_time": "2026-03-05 14:03:20",
+          "equipid": "ANONDEVICE001",
+          "ref_range": "95-100"
+        },
+        {
+          "test_name": "spo2_b",
+          "label": "Oxygen Saturation (B)",
+          "value": "98",
+          "unit": "%",
+          "date_time": "2026-03-05 14:03:20",
+          "equipid": "ANONDEVICE001",
+          "ref_range": "95-100"
+        },
+        {
+          "test_name": "spo2_delta",
+          "label": "SpO2 Delta",
+          "value": "0",
+          "unit": "%",
+          "date_time": "2026-03-05 14:03:20",
+          "equipid": "ANONDEVICE001"
+        },
+        {
+          "test_name": "pr",
+          "label": "Pulse Rate",
+          "value": "60",
+          "unit": "bpm",
+          "date_time": "2026-03-05 14:03:20",
+          "equipid": "ANONDEVICE001",
+          "ref_range": "60-100"
+        },
+        {
+          "test_name": "rr",
+          "label": "Respiratory Rate",
+          "value": "20",
+          "unit": "rpm",
+          "date_time": "2026-03-05 14:03:20",
+          "equipid": "ANONDEVICE001",
+          "ref_range": "12-20"
+        },
+        {
+          "test_name": "temp_t1",
+          "label": "Body Temperature T1",
+          "value": "36.0",
+          "unit": "°C",
+          "date_time": "2026-03-05 14:03:20",
+          "equipid": "ANONDEVICE002",
+          "ref_range": "36.0-37.5"
+        },
+        {
+          "test_name": "temp_t2",
+          "label": "Body Temperature T2",
+          "value": "36.7",
+          "unit": "°C",
+          "date_time": "2026-03-05 14:03:20",
+          "equipid": "ANONDEVICE002",
+          "ref_range": "36.0-37.5"
+        },
+        {
+          "test_name": "temp_td",
+          "label": "Temperature Difference",
+          "value": "0.7",
+          "unit": "°C",
+          "date_time": "2026-03-05 14:03:20",
+          "equipid": "ANONDEVICE002"
+        }
+      ]
+    }
+  },
+  {
+    "patient": {
+      "pid": "ANON123456",
+      "vid": "",
+      "name": "ANON PATIENT",
+      "gender": "male"
+    },
+    "result": {
+      "data_vital_sign": [
+        {
+          "test_name": "hr",
+          "label": "Heart Rate (ECG)",
+          "value": "60",
+          "unit": "bpm",
+          "date_time": "2026-03-05 14:03:21",
+          "equipid": "ANONDEVICE001",
+          "ref_range": "60-100"
+        },
+        {
+          "test_name": "ecg_pvcs",
+          "label": "PVCs",
+          "value": "10",
+          "unit": "/min",
+          "date_time": "2026-03-05 14:03:21",
+          "equipid": "ANONDEVICE001"
+        },
+        {
+          "test_name": "ecg_pause",
+          "label": "ECG Pause Min",
+          "value": "3",
+          "unit": "/min",
+          "date_time": "2026-03-05 14:03:21",
+          "equipid": "ANONDEVICE001"
+        },
+        {
+          "test_name": "spo2_a",
+          "label": "Oxygen Saturation (A)",
+          "value": "98",
+          "unit": "%",
+          "date_time": "2026-03-05 14:03:21",
+          "equipid": "ANONDEVICE001",
+          "ref_range": "95-100"
+        },
+        {
+          "test_name": "spo2_b",
+          "label": "Oxygen Saturation (B)",
+          "value": "98",
+          "unit": "%",
+          "date_time": "2026-03-05 14:03:21",
+          "equipid": "ANONDEVICE001",
+          "ref_range": "95-100"
+        },
+        {
+          "test_name": "spo2_delta",
+          "label": "SpO2 Delta",
+          "value": "0",
+          "unit": "%",
+          "date_time": "2026-03-05 14:03:21",
+          "equipid": "ANONDEVICE001"
+        },
+        {
+          "test_name": "pr",
+          "label": "Pulse Rate",
+          "value": "60",
+          "unit": "bpm",
+          "date_time": "2026-03-05 14:03:21",
+          "equipid": "ANONDEVICE001",
+          "ref_range": "60-100"
+        },
+        {
+          "test_name": "rr",
+          "label": "Respiratory Rate",
+          "value": "20",
+          "unit": "rpm",
+          "date_time": "2026-03-05 14:03:21",
+          "equipid": "ANONDEVICE001",
+          "ref_range": "12-20"
+        },
+        {
+          "test_name": "temp_t1",
+          "label": "Body Temperature T1",
+          "value": "36.0",
+          "unit": "°C",
+          "date_time": "2026-03-05 14:03:21",
+          "equipid": "ANONDEVICE002",
+          "ref_range": "36.0-37.5"
+        },
+        {
+          "test_name": "temp_t2",
+          "label": "Body Temperature T2",
+          "value": "36.7",
+          "unit": "°C",
+          "date_time": "2026-03-05 14:03:21",
+          "equipid": "ANONDEVICE002",
+          "ref_range": "36.0-37.5"
+        },
+        {
+          "test_name": "temp_td",
+          "label": "Temperature Difference",
+          "value": "0.7",
+          "unit": "°C",
+          "date_time": "2026-03-05 14:03:21",
+          "equipid": "ANONDEVICE002"
+        }
+      ]
+    }
+  },
+  {
+    "patient": {
+      "pid": "ANON123456",
+      "vid": "",
+      "name": "ANON PATIENT",
+      "gender": "male"
+    },
+    "result": {
+      "data_vital_sign": [
+        {
+          "test_name": "hr",
+          "label": "Heart Rate (ECG)",
+          "value": "60",
+          "unit": "bpm",
+          "date_time": "2026-03-05 14:03:22",
+          "equipid": "ANONDEVICE001",
+          "ref_range": "60-100"
+        },
+        {
+          "test_name": "ecg_pvcs",
+          "label": "PVCs",
+          "value": "10",
+          "unit": "/min",
+          "date_time": "2026-03-05 14:03:22",
+          "equipid": "ANONDEVICE001"
+        },
+        {
+          "test_name": "ecg_pause",
+          "label": "ECG Pause Min",
+          "value": "3",
+          "unit": "/min",
+          "date_time": "2026-03-05 14:03:22",
+          "equipid": "ANONDEVICE001"
+        },
+        {
+          "test_name": "spo2_a",
+          "label": "Oxygen Saturation (A)",
+          "value": "98",
+          "unit": "%",
+          "date_time": "2026-03-05 14:03:22",
+          "equipid": "ANONDEVICE001",
+          "ref_range": "95-100"
+        },
+        {
+          "test_name": "spo2_b",
+          "label": "Oxygen Saturation (B)",
+          "value": "98",
+          "unit": "%",
+          "date_time": "2026-03-05 14:03:22",
+          "equipid": "ANONDEVICE001",
+          "ref_range": "95-100"
+        },
+        {
+          "test_name": "spo2_delta",
+          "label": "SpO2 Delta",
+          "value": "0",
+          "unit": "%",
+          "date_time": "2026-03-05 14:03:22",
+          "equipid": "ANONDEVICE001"
+        },
+        {
+          "test_name": "pr",
+          "label": "Pulse Rate",
+          "value": "60",
+          "unit": "bpm",
+          "date_time": "2026-03-05 14:03:22",
+          "equipid": "ANONDEVICE001",
+          "ref_range": "60-100"
+        },
+        {
+          "test_name": "rr",
+          "label": "Respiratory Rate",
+          "value": "20",
+          "unit": "rpm",
+          "date_time": "2026-03-05 14:03:22",
+          "equipid": "ANONDEVICE001",
+          "ref_range": "12-20"
+        },
+        {
+          "test_name": "temp_t1",
+          "label": "Body Temperature T1",
+          "value": "36.0",
+          "unit": "°C",
+          "date_time": "2026-03-05 14:03:22",
+          "equipid": "ANONDEVICE002",
+          "ref_range": "36.0-37.5"
+        },
+        {
+          "test_name": "temp_t2",
+          "label": "Body Temperature T2",
+          "value": "36.7",
+          "unit": "°C",
+          "date_time": "2026-03-05 14:03:22",
+          "equipid": "ANONDEVICE002",
+          "ref_range": "36.0-37.5"
+        },
+        {
+          "test_name": "temp_td",
+          "label": "Temperature Difference",
+          "value": "0.7",
+          "unit": "°C",
+          "date_time": "2026-03-05 14:03:22",
+          "equipid": "ANONDEVICE002"
+        }
+      ]
+    }
+  }
+]
